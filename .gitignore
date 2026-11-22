@@ -1,0 +1,29 @@
+# Local build artifacts & tool caches
+build/
+.build/
+.swiftpm/
+DerivedData/
+Catris.xcodeproj/
+*.xcarchive
+*.ipa
+
+# .NET asset builder outputs
+tools/CatrisAssetBuilder/bin/
+tools/CatrisAssetBuilder/obj/
+tools/preview/obj/
+
+# Local preproduction scratch tools, local agent skills & large copyrighted reference video (NEVER ship in repo/IPA!)
+.agent/
+.agents/
+.prep-tools/
+preproduction/references/Game.mp4
+preproduction/references/frames/
+preproduction/references/motion-invalid/
+preproduction/references/motion-pickup/
+preproduction/references/motion-settle/
+preproduction/references/*.jpg
+preproduction/vendor/
+
+# OS files
+.DS_Store
+Thumbs.db

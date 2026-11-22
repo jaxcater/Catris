@@ -1,0 +1,442 @@
+{
+  "source_filename": "Game.mp4",
+  "source_bytes": 11348201,
+  "sha256": "70ece9145baf7ac0ec3110b486a537c63d7938016e405f116dca7585aae21a1f",
+  "duration_seconds": 46.18,
+  "sampling_note": "Seek targets in seconds; frame selection is limited by source frame rate. Overview row-major.",
+  "ffmpeg_metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\\Users\\Jax\\Downloads\\Game.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso6iso2avc1mp41\n    title           : Catomino - Official Trailer\n    artist          : IndieBunny\n    encoder         : Lavf60.3.100\n  Duration: 00:00:46.18, start: 0.000000, bitrate: 1965 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 1835 kb/s, 60 fps, 60 tbr, 15360 tbn, start 0.016667 (default)\n    Metadata:\n      handler_name    : ISO Media file produced by Google Inc.\n  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\n    Metadata:\n      handler_name    : ISO Media file produced by Google Inc.\nAt least one output file must be specified\n",
+  "frames": [
+    {
+      "group": "frames",
+      "frame": 1,
+      "requested_seconds": 0.0,
+      "path": "frames/frame-01.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 2,
+      "requested_seconds": 2.0,
+      "path": "frames/frame-02.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 3,
+      "requested_seconds": 4.0,
+      "path": "frames/frame-03.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 4,
+      "requested_seconds": 6.0,
+      "path": "frames/frame-04.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 5,
+      "requested_seconds": 8.0,
+      "path": "frames/frame-05.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 6,
+      "requested_seconds": 10.0,
+      "path": "frames/frame-06.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 7,
+      "requested_seconds": 12.0,
+      "path": "frames/frame-07.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 8,
+      "requested_seconds": 14.0,
+      "path": "frames/frame-08.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 9,
+      "requested_seconds": 16.0,
+      "path": "frames/frame-09.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 10,
+      "requested_seconds": 18.0,
+      "path": "frames/frame-10.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 11,
+      "requested_seconds": 20.0,
+      "path": "frames/frame-11.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 12,
+      "requested_seconds": 22.0,
+      "path": "frames/frame-12.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 13,
+      "requested_seconds": 24.0,
+      "path": "frames/frame-13.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 14,
+      "requested_seconds": 26.0,
+      "path": "frames/frame-14.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 15,
+      "requested_seconds": 28.0,
+      "path": "frames/frame-15.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 16,
+      "requested_seconds": 30.0,
+      "path": "frames/frame-16.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 17,
+      "requested_seconds": 32.0,
+      "path": "frames/frame-17.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 18,
+      "requested_seconds": 34.0,
+      "path": "frames/frame-18.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 19,
+      "requested_seconds": 36.0,
+      "path": "frames/frame-19.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 20,
+      "requested_seconds": 38.0,
+      "path": "frames/frame-20.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 21,
+      "requested_seconds": 40.0,
+      "path": "frames/frame-21.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 22,
+      "requested_seconds": 42.0,
+      "path": "frames/frame-22.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 23,
+      "requested_seconds": 44.0,
+      "path": "frames/frame-23.jpg"
+    },
+    {
+      "group": "frames",
+      "frame": 24,
+      "requested_seconds": 45.98,
+      "path": "frames/frame-24.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 1,
+      "requested_seconds": 5.0,
+      "path": "motion-pickup/frame-01.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 2,
+      "requested_seconds": 5.25,
+      "path": "motion-pickup/frame-02.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 3,
+      "requested_seconds": 5.5,
+      "path": "motion-pickup/frame-03.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 4,
+      "requested_seconds": 5.75,
+      "path": "motion-pickup/frame-04.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 5,
+      "requested_seconds": 6.0,
+      "path": "motion-pickup/frame-05.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 6,
+      "requested_seconds": 6.25,
+      "path": "motion-pickup/frame-06.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 7,
+      "requested_seconds": 6.5,
+      "path": "motion-pickup/frame-07.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 8,
+      "requested_seconds": 6.75,
+      "path": "motion-pickup/frame-08.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 9,
+      "requested_seconds": 7.0,
+      "path": "motion-pickup/frame-09.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 10,
+      "requested_seconds": 7.25,
+      "path": "motion-pickup/frame-10.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 11,
+      "requested_seconds": 7.5,
+      "path": "motion-pickup/frame-11.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 12,
+      "requested_seconds": 7.75,
+      "path": "motion-pickup/frame-12.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 13,
+      "requested_seconds": 8.0,
+      "path": "motion-pickup/frame-13.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 14,
+      "requested_seconds": 8.25,
+      "path": "motion-pickup/frame-14.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 15,
+      "requested_seconds": 8.5,
+      "path": "motion-pickup/frame-15.jpg"
+    },
+    {
+      "group": "motion-pickup",
+      "frame": 16,
+      "requested_seconds": 8.75,
+      "path": "motion-pickup/frame-16.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 1,
+      "requested_seconds": 17.0,
+      "path": "motion-invalid/frame-01.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 2,
+      "requested_seconds": 17.25,
+      "path": "motion-invalid/frame-02.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 3,
+      "requested_seconds": 17.5,
+      "path": "motion-invalid/frame-03.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 4,
+      "requested_seconds": 17.75,
+      "path": "motion-invalid/frame-04.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 5,
+      "requested_seconds": 18.0,
+      "path": "motion-invalid/frame-05.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 6,
+      "requested_seconds": 18.25,
+      "path": "motion-invalid/frame-06.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 7,
+      "requested_seconds": 18.5,
+      "path": "motion-invalid/frame-07.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 8,
+      "requested_seconds": 18.75,
+      "path": "motion-invalid/frame-08.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 9,
+      "requested_seconds": 19.0,
+      "path": "motion-invalid/frame-09.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 10,
+      "requested_seconds": 19.25,
+      "path": "motion-invalid/frame-10.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 11,
+      "requested_seconds": 19.5,
+      "path": "motion-invalid/frame-11.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 12,
+      "requested_seconds": 19.75,
+      "path": "motion-invalid/frame-12.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 13,
+      "requested_seconds": 20.0,
+      "path": "motion-invalid/frame-13.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 14,
+      "requested_seconds": 20.25,
+      "path": "motion-invalid/frame-14.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 15,
+      "requested_seconds": 20.5,
+      "path": "motion-invalid/frame-15.jpg"
+    },
+    {
+      "group": "motion-invalid",
+      "frame": 16,
+      "requested_seconds": 20.75,
+      "path": "motion-invalid/frame-16.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 1,
+      "requested_seconds": 28.0,
+      "path": "motion-settle/frame-01.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 2,
+      "requested_seconds": 28.25,
+      "path": "motion-settle/frame-02.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 3,
+      "requested_seconds": 28.5,
+      "path": "motion-settle/frame-03.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 4,
+      "requested_seconds": 28.75,
+      "path": "motion-settle/frame-04.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 5,
+      "requested_seconds": 29.0,
+      "path": "motion-settle/frame-05.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 6,
+      "requested_seconds": 29.25,
+      "path": "motion-settle/frame-06.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 7,
+      "requested_seconds": 29.5,
+      "path": "motion-settle/frame-07.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 8,
+      "requested_seconds": 29.75,
+      "path": "motion-settle/frame-08.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 9,
+      "requested_seconds": 30.0,
+      "path": "motion-settle/frame-09.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 10,
+      "requested_seconds": 30.25,
+      "path": "motion-settle/frame-10.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 11,
+      "requested_seconds": 30.5,
+      "path": "motion-settle/frame-11.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 12,
+      "requested_seconds": 30.75,
+      "path": "motion-settle/frame-12.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 13,
+      "requested_seconds": 31.0,
+      "path": "motion-settle/frame-13.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 14,
+      "requested_seconds": 31.25,
+      "path": "motion-settle/frame-14.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 15,
+      "requested_seconds": 31.5,
+      "path": "motion-settle/frame-15.jpg"
+    },
+    {
+      "group": "motion-settle",
+      "frame": 16,
+      "requested_seconds": 31.75,
+      "path": "motion-settle/frame-16.jpg"
+    }
+  ]
+}

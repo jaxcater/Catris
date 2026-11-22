@@ -1,0 +1,4978 @@
+{
+  "schema_version": 1,
+  "maps": [
+    {
+      "id": "M01",
+      "index": 0,
+      "name_vi": "Góc Nắng",
+      "name_en": "Sunlit Corner",
+      "tagline_vi": "Phòng gỗ nắng chiều và tấm thảm hồng êm ái",
+      "tagline_en": "Warm honey-oak room bathed in afternoon sunbeams",
+      "accent_hex": "#E986A4",
+      "bg_hex": "#DF9F5E",
+      "decor_tiers": [
+        "yarn_basket",
+        "ceramic_mug",
+        "mini_cat_house"
+      ]
+    },
+    {
+      "id": "M02",
+      "index": 1,
+      "name_vi": "Dưới Tán Sồi",
+      "name_en": "Under the Oak",
+      "tagline_vi": "Thảm picnic giữa bãi cỏ dịu mát và bóng lá đung đưa",
+      "tagline_en": "Picnic blanket in a breezy meadow with dappled shade",
+      "accent_hex": "#7FA96B",
+      "bg_hex": "#8AB874",
+      "decor_tiers": [
+        "acorn_jar",
+        "daisy_bouquet",
+        "wooden_lantern"
+      ]
+    },
+    {
+      "id": "M03",
+      "index": 2,
+      "name_vi": "Hiên Nhà Kính",
+      "name_en": "Greenhouse Porch",
+      "tagline_vi": "Gạch terracotta ấm, dây leo đong đưa và chuông gió",
+      "tagline_en": "Terracotta tiles, trailing vines, and glass wind chimes",
+      "accent_hex": "#97B894",
+      "bg_hex": "#D48E72",
+      "decor_tiers": [
+        "watering_can",
+        "succulent_trio",
+        "wind_chime_bell"
+      ]
+    },
+    {
+      "id": "M04",
+      "index": 3,
+      "name_vi": "Ô Cửa Ngày Mưa",
+      "name_en": "Rainy Reading Nook",
+      "tagline_vi": "Góc đọc sách khô ấm bên khung cửa kính lất phất mưa",
+      "tagline_en": "Cozy dry reading corner beside a rain-kissed window",
+      "accent_hex": "#7D9AB5",
+      "bg_hex": "#7A5B47",
+      "decor_tiers": [
+        "book_stack",
+        "tea_kettle",
+        "plush_blanket"
+      ]
+    },
+    {
+      "id": "M05",
+      "index": 4,
+      "name_vi": "Gác Mái Trăng",
+      "name_en": "Moonlit Attic",
+      "tagline_vi": "Thảm lông cừu kem mềm dưới ánh trăng xanh và đèn hổ phách",
+      "tagline_en": "Plush cream sheepskin under gentle moonlight and amber glow",
+      "accent_hex": "#92A8D1",
+      "bg_hex": "#453845",
+      "decor_tiers": [
+        "star_pillow",
+        "music_box",
+        "golden_telescope"
+      ]
+    }
+  ],
+  "cats": [
+    {
+      "id": "nori",
+      "code": "CAT-01",
+      "name_vi": "Nori",
+      "name_en": "Nori",
+      "subtitle_vi": "Mèo đen dài răng nanh",
+      "subtitle_en": "Long Void Fang Cat",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "base_hex": "#232329",
+      "accent_hex": "#3B3A45",
+      "eye_hex": "#F7C948",
+      "pitch": 0.88,
+      "unlock_map": "M01",
+      "unlock_level": 1
+    },
+    {
+      "id": "sumi",
+      "code": "CAT-02",
+      "name_vi": "Sumi",
+      "name_en": "Sumi",
+      "subtitle_vi": "Mèo nâu xù cuộn chân",
+      "subtitle_en": "Fluffy Cocoa L-Cat",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "base_hex": "#4E413B",
+      "accent_hex": "#6B5A52",
+      "eye_hex": "#F08C3A",
+      "pitch": 0.94,
+      "unlock_map": "M01",
+      "unlock_level": 2
+    },
+    {
+      "id": "pudding",
+      "code": "CAT-03",
+      "name_vi": "Pudding",
+      "name_en": "Pudding",
+      "subtitle_vi": "Tam thể ôm cá xanh",
+      "subtitle_en": "Calico Fish-Hugger",
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "base_hex": "#FAF5EC",
+      "accent_hex": "#E38A3E",
+      "eye_hex": "#3A2C28",
+      "pitch": 1.06,
+      "unlock_map": "M01",
+      "unlock_level": 3
+    },
+    {
+      "id": "mochi",
+      "code": "CAT-04",
+      "name_vi": "Mochi",
+      "name_en": "Mochi",
+      "subtitle_vi": "Mướp bạc duỗi tay",
+      "subtitle_en": "Silver Tabby Curl",
+      "cells": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "base_hex": "#D2CEC6",
+      "accent_hex": "#9B968E",
+      "eye_hex": "#333338",
+      "pitch": 1.14,
+      "unlock_map": "M01",
+      "unlock_level": 1
+    },
+    {
+      "id": "miso",
+      "code": "CAT-05",
+      "name_vi": "Miso",
+      "name_en": "Miso",
+      "subtitle_vi": "Bánh mì cam tròn",
+      "subtitle_en": "Chubby Ginger Loaf",
+      "cells": [
+        [
+          0,
+          0
+        ]
+      ],
+      "base_hex": "#EB9E44",
+      "accent_hex": "#C96D29",
+      "eye_hex": "#4D8CE8",
+      "pitch": 1.26,
+      "unlock_map": "M01",
+      "unlock_level": 1
+    },
+    {
+      "id": "yuzu",
+      "code": "CAT-06",
+      "name_vi": "Yuzu",
+      "name_en": "Yuzu",
+      "subtitle_vi": "Mèo Xiêm kem duỗi ngắn",
+      "subtitle_en": "Cream Siamese Nap",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "base_hex": "#F1E3CE",
+      "accent_hex": "#6E5242",
+      "eye_hex": "#5BA8E6",
+      "pitch": 1.18,
+      "unlock_map": "M01",
+      "unlock_level": 4
+    },
+    {
+      "id": "matcha",
+      "code": "CAT-07",
+      "name_vi": "Matcha",
+      "name_en": "Matcha",
+      "subtitle_vi": "Mèo xám xanh khăn bạc hà",
+      "subtitle_en": "Russian Blue Lounger",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "base_hex": "#7E8C9B",
+      "accent_hex": "#9AD6B9",
+      "eye_hex": "#72C489",
+      "pitch": 1.0,
+      "unlock_map": "M01",
+      "unlock_level": 1
+    },
+    {
+      "id": "sesame",
+      "code": "CAT-08",
+      "name_vi": "Sesame",
+      "name_en": "Sesame",
+      "subtitle_vi": "Mèo ú Tuxedo bông xù",
+      "subtitle_en": "Tuxedo Fluff Cloud",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "base_hex": "#2B2D36",
+      "accent_hex": "#FAF7F2",
+      "eye_hex": "#F2C14E",
+      "pitch": 0.8,
+      "unlock_map": "M01",
+      "unlock_level": 6
+    },
+    {
+      "id": "kinako",
+      "code": "CAT-09",
+      "name_vi": "Kinako",
+      "name_en": "Kinako",
+      "subtitle_vi": "Mướp mật ong dang tay",
+      "subtitle_en": "Honey Sploot Tabby",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "base_hex": "#D9A46A",
+      "accent_hex": "#9B683B",
+      "eye_hex": "#62A85A",
+      "pitch": 0.96,
+      "unlock_map": "M02",
+      "unlock_level": 13
+    },
+    {
+      "id": "azuki",
+      "code": "CAT-10",
+      "name_vi": "Azuki",
+      "name_en": "Azuki",
+      "subtitle_vi": "Tam thể nơ xanh da trời",
+      "subtitle_en": "Blue-Bow Calico",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "base_hex": "#FFF7EE",
+      "accent_hex": "#6BB6F0",
+      "eye_hex": "#453935",
+      "pitch": 1.08,
+      "unlock_map": "M02",
+      "unlock_level": 15
+    },
+    {
+      "id": "taro",
+      "code": "CAT-11",
+      "name_vi": "Taro",
+      "name_en": "Taro",
+      "subtitle_vi": "Mèo kem tím uốn dẻo",
+      "subtitle_en": "Lilac Cream Swirl",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "base_hex": "#DFD4E3",
+      "accent_hex": "#A997B3",
+      "eye_hex": "#E6A94C",
+      "pitch": 1.04,
+      "unlock_map": "M03",
+      "unlock_level": 25
+    },
+    {
+      "id": "banhmi",
+      "code": "CAT-12",
+      "name_vi": "Bánh Mì",
+      "name_en": "Banhmi",
+      "subtitle_vi": "Vua rừng Na Uy bờm xù",
+      "subtitle_en": "Norwegian Forest King",
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "base_hex": "#C79B74",
+      "accent_hex": "#FFF6EA",
+      "eye_hex": "#E8B84B",
+      "pitch": 0.75,
+      "unlock_map": "M05",
+      "unlock_level": 49
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "map_id": "M01",
+      "index_in_map": 1,
+      "difficulty": 1,
+      "title_vi": "Nắng Sớm Ấm Áp",
+      "title_en": "Morning Sunbeam",
+      "tutorial_hint_vi": "Kéo các bé mèo vào ô trống trên thảm hồng",
+      "tutorial_hint_en": "Drag each cat onto the pink rug cells",
+      "cols": 3,
+      "rows": 3,
+      "void_cells": [],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "matcha",
+        "mochi",
+        "yuzu",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "matcha",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "mochi",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "yuzu",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "miso",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "map_id": "M01",
+      "index_in_map": 2,
+      "difficulty": 1,
+      "title_vi": "Xoay Tròn Ngủ Ngon",
+      "title_en": "Cozy Spin",
+      "tutorial_hint_vi": "Chạm nhẹ hoặc bấm nút Xoay để đổi hướng mèo 90°",
+      "tutorial_hint_en": "Tap a cat or press Rotate to turn 90°",
+      "cols": 4,
+      "rows": 3,
+      "void_cells": [],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "sumi",
+        "matcha",
+        "mochi",
+        "yuzu"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "sumi",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "matcha",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 3
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "yuzu",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "map_id": "M01",
+      "index_in_map": 3,
+      "difficulty": 2,
+      "title_vi": "Góc Nắng Quen Thuộc",
+      "title_en": "Classic Sunlit Rug",
+      "tutorial_hint_vi": "Dùng Hoàn tác hoặc Gợi ý bất cứ lúc nào — không giới hạn thời gian!",
+      "tutorial_hint_en": "Use Undo or Hint anytime — relax at your own pace!",
+      "cols": 4,
+      "rows": 4,
+      "void_cells": [],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "nori",
+        "sumi",
+        "pudding",
+        "mochi",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sumi",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "miso",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "map_id": "M01",
+      "index_in_map": 4,
+      "difficulty": 1,
+      "title_vi": "Chiếc Gối Mềm",
+      "title_en": "Soft Pillow",
+      "cols": 4,
+      "rows": 4,
+      "void_cells": [],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "yuzu",
+        "pudding",
+        "nori",
+        "sumi",
+        "miso",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "yuzu",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "pudding",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "nori",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 3
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "miso",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "map_id": "M01",
+      "index_in_map": 5,
+      "difficulty": 2,
+      "title_vi": "Cuộn Len Hồng",
+      "title_en": "Pink Yarn Ball",
+      "cols": 4,
+      "rows": 4,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 3,
+          "row": 0,
+          "kind": "yarn_ball"
+        }
+      ],
+      "fixed_cats": [],
+      "playable_cats": [
+        "nori",
+        "mochi",
+        "sumi",
+        "pudding"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "mochi",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 2
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sumi",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 2
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "pudding",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "map_id": "M01",
+      "index_in_map": 6,
+      "difficulty": 2,
+      "title_vi": "Mèo Ú Ghé Thăm",
+      "title_en": "Fluffy Visitor",
+      "cols": 4,
+      "rows": 4,
+      "void_cells": [],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "sesame",
+        "sumi",
+        "matcha",
+        "pudding",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "matcha",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "miso",
+          "anchor_col": 3,
+          "anchor_row": 3,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "map_id": "M01",
+      "index_in_map": 7,
+      "difficulty": 2,
+      "title_vi": "Đĩa Sữa Sáng",
+      "title_en": "Morning Milk Bowl",
+      "cols": 4,
+      "rows": 4,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 1,
+          "row": 2,
+          "kind": "milk_bowl"
+        }
+      ],
+      "fixed_cats": [],
+      "playable_cats": [
+        "pudding",
+        "matcha",
+        "sumi",
+        "mochi",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "matcha",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "miso",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "map_id": "M01",
+      "index_in_map": 8,
+      "difficulty": 2,
+      "title_vi": "Giấc Trưa Dài",
+      "title_en": "Long Afternoon Nap",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "nori",
+        "sesame",
+        "pudding",
+        "matcha",
+        "sumi",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sesame",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "pudding",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "matcha",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "sumi",
+          "anchor_col": 1,
+          "anchor_row": 2,
+          "rotation": 2
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 3,
+          "anchor_row": 4,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "map_id": "M01",
+      "index_in_map": 9,
+      "difficulty": 2,
+      "title_vi": "Khúc Hát Guitar",
+      "title_en": "Acoustic Afternoon",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 0,
+          "row": 4,
+          "kind": "yarn_ball"
+        }
+      ],
+      "fixed_cats": [],
+      "playable_cats": [
+        "sumi",
+        "pudding",
+        "matcha",
+        "nori",
+        "yuzu",
+        "miso",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 2
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "pudding",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "matcha",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "nori",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "yuzu",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 1,
+          "anchor_row": 4,
+          "rotation": 0
+        },
+        {
+          "piece_index": 6,
+          "cat_id": "miso",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "map_id": "M01",
+      "index_in_map": 10,
+      "difficulty": 3,
+      "title_vi": "Tấm Thảm Xinh",
+      "title_en": "Woven Rug",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "nori",
+        "sumi",
+        "mochi",
+        "yuzu",
+        "sesame",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 2
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "yuzu",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "sesame",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 3,
+          "anchor_row": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "map_id": "M01",
+      "index_in_map": 11,
+      "difficulty": 3,
+      "title_vi": "Góc Sách Yên",
+      "title_en": "Quiet Bookshelf",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 2,
+          "kind": "book"
+        }
+      ],
+      "fixed_cats": [],
+      "playable_cats": [
+        "pudding",
+        "sesame",
+        "yuzu",
+        "sumi",
+        "matcha",
+        "miso",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "pudding",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sesame",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "yuzu",
+          "anchor_col": 0,
+          "anchor_row": 4,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "sumi",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 2
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "matcha",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 6,
+          "cat_id": "miso",
+          "anchor_col": 1,
+          "anchor_row": 2,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "map_id": "M01",
+      "index_in_map": 12,
+      "difficulty": 3,
+      "title_vi": "Hoàng Hôn Phòng Ấm",
+      "title_en": "Golden Hour Finale",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "nori",
+        "sumi",
+        "pudding",
+        "sesame",
+        "matcha",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 4,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 2
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "pudding",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "sesame",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "matcha",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "map_id": "M02",
+      "index_in_map": 1,
+      "difficulty": 1,
+      "title_vi": "Bãi Cỏ Dịu Mát",
+      "title_en": "Shady Meadow",
+      "cols": 4,
+      "rows": 4,
+      "void_cells": [],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "kinako",
+        "mochi",
+        "pudding",
+        "sumi",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 2
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "pudding",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "miso",
+          "anchor_col": 3,
+          "anchor_row": 3,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "map_id": "M02",
+      "index_in_map": 2,
+      "difficulty": 1,
+      "title_vi": "Hạt Dẻ Mùa Thu",
+      "title_en": "Fallen Acorn",
+      "cols": 4,
+      "rows": 4,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 0,
+          "row": 0,
+          "kind": "acorn"
+        }
+      ],
+      "fixed_cats": [],
+      "playable_cats": [
+        "kinako",
+        "sumi",
+        "mochi",
+        "yuzu",
+        "miso",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "kinako",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 2
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "yuzu",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "miso",
+          "anchor_col": 3,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "map_id": "M02",
+      "index_in_map": 3,
+      "difficulty": 2,
+      "title_vi": "Nơ Xanh Bay Gió",
+      "title_en": "Blue Bow Breeze",
+      "cols": 4,
+      "rows": 4,
+      "void_cells": [],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "azuki",
+        "kinako",
+        "pudding",
+        "mochi",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "azuki",
+          "anchor_col": 1,
+          "anchor_row": 2,
+          "rotation": 3
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "mochi",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 2
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "miso",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "map_id": "M02",
+      "index_in_map": 4,
+      "difficulty": 2,
+      "title_vi": "Thảm Caro Đỏ",
+      "title_en": "Gingham Picnic",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "azuki",
+        "pudding",
+        "kinako",
+        "nori",
+        "miso",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "azuki",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "pudding",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "kinako",
+          "anchor_col": 1,
+          "anchor_row": 2,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "miso",
+          "anchor_col": 2,
+          "anchor_row": 4,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "map_id": "M02",
+      "index_in_map": 5,
+      "difficulty": 2,
+      "title_vi": "Bóng Lá Đung Đưa",
+      "title_en": "Dappled Canopy",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 1,
+          "kind": "acorn"
+        }
+      ],
+      "fixed_cats": [],
+      "playable_cats": [
+        "kinako",
+        "nori",
+        "mochi",
+        "azuki",
+        "sesame"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 2
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "nori",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 3
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "azuki",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "map_id": "M02",
+      "index_in_map": 6,
+      "difficulty": 2,
+      "title_vi": "Cúc Trắng Nở Rộ",
+      "title_en": "White Daisies",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "sesame",
+        "azuki",
+        "matcha",
+        "nori",
+        "mochi"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "azuki",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 3
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "matcha",
+          "anchor_col": 3,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 4,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "mochi",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 1
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "map_id": "M02",
+      "index_in_map": 7,
+      "difficulty": 2,
+      "title_vi": "Giỏ Mây Mật Ong",
+      "title_en": "Honey Basket",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 1,
+          "row": 3,
+          "kind": "yarn_ball"
+        }
+      ],
+      "fixed_cats": [],
+      "playable_cats": [
+        "kinako",
+        "pudding",
+        "matcha",
+        "nori",
+        "azuki"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "matcha",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "azuki",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 3
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "map_id": "M02",
+      "index_in_map": 8,
+      "difficulty": 3,
+      "title_vi": "Gốc Sồi Cổ Thụ",
+      "title_en": "Old Oak Roots",
+      "cols": 5,
+      "rows": 4,
+      "void_cells": [
+        [
+          0,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "nori",
+        "azuki",
+        "sumi",
+        "kinako",
+        "yuzu"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "azuki",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 3
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sumi",
+          "anchor_col": 1,
+          "anchor_row": 2,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "yuzu",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "map_id": "M02",
+      "index_in_map": 9,
+      "difficulty": 3,
+      "title_vi": "Cơn Gió Nhẹ",
+      "title_en": "Afternoon Gust",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "kinako",
+        "azuki",
+        "pudding",
+        "mochi",
+        "matcha",
+        "yuzu",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "kinako",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "azuki",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 3
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "pudding",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "matcha",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "yuzu",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 6,
+          "cat_id": "miso",
+          "anchor_col": 3,
+          "anchor_row": 4,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "map_id": "M02",
+      "index_in_map": 10,
+      "difficulty": 3,
+      "title_vi": "Đôi Bạn Nắng",
+      "title_en": "Sunlit Friends",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 0,
+          "row": 2,
+          "kind": "acorn"
+        },
+        {
+          "col": 3,
+          "row": 2,
+          "kind": "milk_bowl"
+        }
+      ],
+      "fixed_cats": [],
+      "playable_cats": [
+        "sumi",
+        "azuki",
+        "sesame",
+        "yuzu",
+        "mochi",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "sumi",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 2
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "azuki",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 3
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "yuzu",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 1,
+          "anchor_row": 2,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "map_id": "M02",
+      "index_in_map": 11,
+      "difficulty": 3,
+      "title_vi": "Đồi Hoa Nắng",
+      "title_en": "Flower Hill",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "obstacles": [
+        {
+          "col": 0,
+          "row": 2,
+          "kind": "acorn"
+        }
+      ],
+      "fixed_cats": [],
+      "playable_cats": [
+        "nori",
+        "kinako",
+        "pudding",
+        "mochi",
+        "sumi",
+        "yuzu",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "kinako",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 2
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "mochi",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 3
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "sumi",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 3
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "yuzu",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 6,
+          "cat_id": "miso",
+          "anchor_col": 4,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "map_id": "M02",
+      "index_in_map": 12,
+      "difficulty": 4,
+      "title_vi": "Tiệc Picnic Sồi",
+      "title_en": "Oak Tree Feast",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "nori",
+        "sumi",
+        "kinako",
+        "azuki",
+        "sesame",
+        "matcha"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sumi",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 3
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "azuki",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "sesame",
+          "anchor_col": 3,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "matcha",
+          "anchor_col": 2,
+          "anchor_row": 4,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "map_id": "M03",
+      "index_in_map": 1,
+      "difficulty": 2,
+      "title_vi": "Mèo Tím Uốn Dẻo",
+      "title_en": "Lilac Stretch",
+      "cols": 4,
+      "rows": 4,
+      "void_cells": [],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "taro",
+        "mochi",
+        "azuki",
+        "nori",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "taro",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "azuki",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 2
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "miso",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "map_id": "M03",
+      "index_in_map": 2,
+      "difficulty": 2,
+      "title_vi": "Gạch Gốm Sớm Mai",
+      "title_en": "Morning Terracotta",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "matcha",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "taro",
+        "kinako",
+        "yuzu",
+        "sumi",
+        "mochi"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "taro",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "kinako",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 3
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "yuzu",
+          "anchor_col": 2,
+          "anchor_row": 4,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "mochi",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 2
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "map_id": "M03",
+      "index_in_map": 3,
+      "difficulty": 2,
+      "title_vi": "Đừng Đánh Thức!",
+      "title_en": "Do Not Disturb",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 3,
+          "row": 0,
+          "kind": "flower_pot"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "azuki",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "taro",
+        "pudding",
+        "sumi",
+        "matcha"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "taro",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "pudding",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "matcha",
+          "anchor_col": 0,
+          "anchor_row": 4,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "map_id": "M03",
+      "index_in_map": 4,
+      "difficulty": 2,
+      "title_vi": "Chuông Gió Thủy Tinh",
+      "title_en": "Glass Wind Chime",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "matcha",
+          "anchor_col": 1,
+          "anchor_row": 2,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "azuki",
+        "taro",
+        "pudding",
+        "mochi"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "azuki",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 2
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "taro",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "pudding",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "map_id": "M03",
+      "index_in_map": 5,
+      "difficulty": 3,
+      "title_vi": "Dây Leo Xanh Mát",
+      "title_en": "Trailing Vines",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 2,
+          "kind": "flower_pot"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "taro",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "nori",
+        "kinako",
+        "matcha",
+        "azuki",
+        "yuzu",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 3,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 3
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "matcha",
+          "anchor_col": 4,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "azuki",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "yuzu",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 0,
+          "anchor_row": 4,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "map_id": "M03",
+      "index_in_map": 6,
+      "difficulty": 3,
+      "title_vi": "Chậu Men Kem",
+      "title_en": "Glazed Planters",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 1
+        }
+      ],
+      "playable_cats": [
+        "sesame",
+        "azuki",
+        "mochi",
+        "kinako",
+        "matcha"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "azuki",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "mochi",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 2
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "kinako",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 2
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "matcha",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "map_id": "M03",
+      "index_in_map": 7,
+      "difficulty": 3,
+      "title_vi": "Hương Hoa Giấy",
+      "title_en": "Bougainvillea Shade",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "mochi",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 2
+        }
+      ],
+      "playable_cats": [
+        "taro",
+        "sumi",
+        "nori",
+        "kinako",
+        "sesame"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "taro",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sumi",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 3
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "nori",
+          "anchor_col": 1,
+          "anchor_row": 4,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "kinako",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 2
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "map_id": "M03",
+      "index_in_map": 8,
+      "difficulty": 3,
+      "title_vi": "Bình Tưới Đồng",
+      "title_en": "Copper Watering Can",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 1,
+          "row": 1,
+          "kind": "flower_pot"
+        },
+        {
+          "col": 3,
+          "row": 3,
+          "kind": "milk_bowl"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "kinako",
+        "azuki",
+        "taro",
+        "pudding",
+        "matcha"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "kinako",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 2
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "azuki",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "taro",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "pudding",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "matcha",
+          "anchor_col": 4,
+          "anchor_row": 2,
+          "rotation": 1
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "map_id": "M03",
+      "index_in_map": 9,
+      "difficulty": 3,
+      "title_vi": "Hiên Nắng Nhẹ",
+      "title_en": "Sunlit Veranda",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "cat_id": "yuzu",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 1
+        }
+      ],
+      "playable_cats": [
+        "pudding",
+        "taro",
+        "sesame",
+        "sumi"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "pudding",
+          "anchor_col": 1,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "taro",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sesame",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "sumi",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 2
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "map_id": "M03",
+      "index_in_map": 10,
+      "difficulty": 4,
+      "title_vi": "Giấc Ngủ Mây Trôi",
+      "title_en": "Drifting Clouds",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 2,
+          "kind": "flower_pot"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "azuki",
+          "anchor_col": 3,
+          "anchor_row": 2,
+          "rotation": 2
+        },
+        {
+          "cat_id": "sesame",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "nori",
+        "kinako",
+        "taro",
+        "mochi",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 4,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "taro",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "mochi",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "miso",
+          "anchor_col": 2,
+          "anchor_row": 4,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "map_id": "M03",
+      "index_in_map": 11,
+      "difficulty": 4,
+      "title_vi": "Vườn Kính Yên Bình",
+      "title_en": "Quiet Conservatory",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 2,
+          "kind": "yarn_ball"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "taro",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 1
+        },
+        {
+          "cat_id": "azuki",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        }
+      ],
+      "playable_cats": [
+        "sumi",
+        "pudding",
+        "kinako",
+        "yuzu"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "sumi",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "pudding",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "kinako",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 2
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "yuzu",
+          "anchor_col": 4,
+          "anchor_row": 3,
+          "rotation": 1
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "map_id": "M03",
+      "index_in_map": 12,
+      "difficulty": 4,
+      "title_vi": "Bản Hòa Tấu Gió",
+      "title_en": "Breeze Harmony",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "taro",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "nori",
+        "sumi",
+        "pudding",
+        "azuki",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sumi",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 3
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "azuki",
+          "anchor_col": 1,
+          "anchor_row": 2,
+          "rotation": 2
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "miso",
+          "anchor_col": 4,
+          "anchor_row": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "map_id": "M04",
+      "index_in_map": 1,
+      "difficulty": 2,
+      "title_vi": "Hạt Mưa Đầu Mùa",
+      "title_en": "First Raindrops",
+      "cols": 4,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 0,
+          "row": 4,
+          "kind": "teacup"
+        }
+      ],
+      "fixed_cats": [],
+      "playable_cats": [
+        "pudding",
+        "taro",
+        "mochi",
+        "azuki",
+        "sesame"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "taro",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "mochi",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 2
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "azuki",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 3
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "map_id": "M04",
+      "index_in_map": 2,
+      "difficulty": 2,
+      "title_vi": "Tách Trà Nóng",
+      "title_en": "Steaming Teacup",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "pudding",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "sumi",
+        "kinako",
+        "azuki",
+        "mochi",
+        "yuzu"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "sumi",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 3
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "azuki",
+          "anchor_col": 3,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 2
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "yuzu",
+          "anchor_col": 3,
+          "anchor_row": 3,
+          "rotation": 1
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "map_id": "M04",
+      "index_in_map": 3,
+      "difficulty": 3,
+      "title_vi": "Ánh Đèn Bàn Ấm",
+      "title_en": "Amber Desk Lamp",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          2,
+          2
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "pudding",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 1
+        }
+      ],
+      "playable_cats": [
+        "nori",
+        "taro",
+        "sesame",
+        "azuki",
+        "mochi",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "taro",
+          "anchor_col": 3,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "azuki",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 3
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "mochi",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 3
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 4,
+          "anchor_row": 2,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "map_id": "M04",
+      "index_in_map": 4,
+      "difficulty": 3,
+      "title_vi": "Trang Sách Cũ",
+      "title_en": "Vintage Pages",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 1,
+          "row": 3,
+          "kind": "book"
+        },
+        {
+          "col": 3,
+          "row": 1,
+          "kind": "teacup"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "kinako",
+          "anchor_col": 3,
+          "anchor_row": 1,
+          "rotation": 3
+        }
+      ],
+      "playable_cats": [
+        "pudding",
+        "azuki",
+        "sumi",
+        "mochi",
+        "nori"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "azuki",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 2
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "mochi",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "nori",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 1
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "map_id": "M04",
+      "index_in_map": 5,
+      "difficulty": 3,
+      "title_vi": "Thảm Len Xanh",
+      "title_en": "Dusty Blue Knit",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 3
+        }
+      ],
+      "playable_cats": [
+        "nori",
+        "sumi",
+        "taro",
+        "pudding",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "taro",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "miso",
+          "anchor_col": 4,
+          "anchor_row": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "map_id": "M04",
+      "index_in_map": 6,
+      "difficulty": 3,
+      "title_vi": "Mưa Rơi Bên Kính",
+      "title_en": "Rain on Glass",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 2,
+          "kind": "book"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "cat_id": "azuki",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 2
+        }
+      ],
+      "playable_cats": [
+        "pudding",
+        "taro",
+        "matcha",
+        "mochi"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "pudding",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "taro",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "matcha",
+          "anchor_col": 4,
+          "anchor_row": 2,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 2
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "map_id": "M04",
+      "index_in_map": 7,
+      "difficulty": 3,
+      "title_vi": "Cuộn Tròn Ấm Áp",
+      "title_en": "Snuggled Warm",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "matcha",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "kinako",
+        "azuki",
+        "sumi",
+        "mochi",
+        "taro"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "azuki",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 2
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sumi",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 3
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "mochi",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "taro",
+          "anchor_col": 3,
+          "anchor_row": 2,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "map_id": "M04",
+      "index_in_map": 8,
+      "difficulty": 4,
+      "title_vi": "Góc Đọc Yên Tĩnh",
+      "title_en": "Quiet Reading Spot",
+      "cols": 5,
+      "rows": 6,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "kinako",
+          "anchor_col": 1,
+          "anchor_row": 4,
+          "rotation": 2
+        }
+      ],
+      "playable_cats": [
+        "nori",
+        "pudding",
+        "taro",
+        "sesame",
+        "matcha",
+        "mochi"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "taro",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "matcha",
+          "anchor_col": 4,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "map_id": "M04",
+      "index_in_map": 9,
+      "difficulty": 4,
+      "title_vi": "Khói Trà Mỏng",
+      "title_en": "Gentle Tea Steam",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [],
+      "obstacles": [
+        {
+          "col": 0,
+          "row": 2,
+          "kind": "teacup"
+        },
+        {
+          "col": 4,
+          "row": 2,
+          "kind": "book"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "taro",
+          "anchor_col": 3,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "cat_id": "matcha",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 1
+        }
+      ],
+      "playable_cats": [
+        "azuki",
+        "sumi",
+        "sesame",
+        "nori"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "azuki",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 2
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sesame",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 4,
+          "rotation": 1
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "map_id": "M04",
+      "index_in_map": 10,
+      "difficulty": 4,
+      "title_vi": "Mưa Rả Rích",
+      "title_en": "Steady Drizzle",
+      "cols": 5,
+      "rows": 6,
+      "void_cells": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "obstacles": [
+        {
+          "col": 1,
+          "row": 2,
+          "kind": "book"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 4,
+          "rotation": 1
+        },
+        {
+          "cat_id": "azuki",
+          "anchor_col": 3,
+          "anchor_row": 3,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "sumi",
+        "pudding",
+        "sesame",
+        "matcha",
+        "yuzu",
+        "miso",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "sumi",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "pudding",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sesame",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "matcha",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "yuzu",
+          "anchor_col": 0,
+          "anchor_row": 5,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 3,
+          "anchor_row": 5,
+          "rotation": 0
+        },
+        {
+          "piece_index": 6,
+          "cat_id": "miso",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "map_id": "M04",
+      "index_in_map": 11,
+      "difficulty": 4,
+      "title_vi": "Tổ Ấm Ngày Mưa",
+      "title_en": "Rainy Sanctuary",
+      "cols": 5,
+      "rows": 6,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "obstacles": [
+        {
+          "col": 3,
+          "row": 2,
+          "kind": "teacup"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "cat_id": "taro",
+          "anchor_col": 2,
+          "anchor_row": 4,
+          "rotation": 1
+        }
+      ],
+      "playable_cats": [
+        "sesame",
+        "pudding",
+        "nori",
+        "miso",
+        "mochi",
+        "matcha"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "sesame",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "pudding",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "nori",
+          "anchor_col": 4,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "miso",
+          "anchor_col": 3,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "mochi",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "matcha",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 1
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "map_id": "M04",
+      "index_in_map": 12,
+      "difficulty": 5,
+      "title_vi": "Đêm Mưa Ngủ Say",
+      "title_en": "Deep Rainy Slumber",
+      "cols": 5,
+      "rows": 6,
+      "void_cells": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "kinako",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "cat_id": "azuki",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 3
+        }
+      ],
+      "playable_cats": [
+        "nori",
+        "sumi",
+        "pudding",
+        "taro",
+        "matcha",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 1,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sumi",
+          "anchor_col": 2,
+          "anchor_row": 4,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "taro",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "matcha",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "map_id": "M05",
+      "index_in_map": 1,
+      "difficulty": 3,
+      "title_vi": "Vua Rừng Na Uy",
+      "title_en": "Forest King Arrives",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [],
+      "playable_cats": [
+        "banhmi",
+        "mochi",
+        "sesame",
+        "taro",
+        "sumi",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "banhmi",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 2
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "mochi",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "taro",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "sumi",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 3
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "map_id": "M05",
+      "index_in_map": 2,
+      "difficulty": 3,
+      "title_vi": "Ánh Trăng Cửa Mái",
+      "title_en": "Dormer Moonlight",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          2,
+          4
+        ]
+      ],
+      "obstacles": [
+        {
+          "col": 0,
+          "row": 0,
+          "kind": "book"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "banhmi",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 2
+        }
+      ],
+      "playable_cats": [
+        "nori",
+        "pudding",
+        "sesame",
+        "matcha",
+        "yuzu",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "pudding",
+          "anchor_col": 1,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sesame",
+          "anchor_col": 3,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "matcha",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "yuzu",
+          "anchor_col": 3,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "map_id": "M05",
+      "index_in_map": 3,
+      "difficulty": 3,
+      "title_vi": "Thảm Lông Cừu Kem",
+      "title_en": "Cream Sheepskin",
+      "cols": 5,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "sumi",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 3
+        }
+      ],
+      "playable_cats": [
+        "banhmi",
+        "taro",
+        "sesame",
+        "kinako",
+        "yuzu"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "banhmi",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "taro",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sesame",
+          "anchor_col": 3,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "kinako",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 2
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "yuzu",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "map_id": "M05",
+      "index_in_map": 4,
+      "difficulty": 4,
+      "title_vi": "Đom Đóm Ngoài Hiền",
+      "title_en": "Window Fireflies",
+      "cols": 5,
+      "rows": 6,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "banhmi",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "kinako",
+        "azuki",
+        "pudding",
+        "nori",
+        "sesame",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "kinako",
+          "anchor_col": 1,
+          "anchor_row": 4,
+          "rotation": 2
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "azuki",
+          "anchor_col": 3,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "sesame",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "map_id": "M05",
+      "index_in_map": 5,
+      "difficulty": 4,
+      "title_vi": "Đèn Hổ Phách",
+      "title_en": "Amber Lantern",
+      "cols": 5,
+      "rows": 6,
+      "void_cells": [
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          2
+        ]
+      ],
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 5,
+          "kind": "teacup"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "pudding",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "banhmi",
+        "sesame",
+        "taro",
+        "azuki",
+        "nori",
+        "yuzu"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "banhmi",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 3
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 4,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "taro",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "azuki",
+          "anchor_col": 3,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "nori",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "yuzu",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 1
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "map_id": "M05",
+      "index_in_map": 6,
+      "difficulty": 4,
+      "title_vi": "Gác Mái Ngàn Sao",
+      "title_en": "Starry Loft",
+      "cols": 5,
+      "rows": 6,
+      "void_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 2,
+          "kind": "yarn_ball"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "taro",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "cat_id": "azuki",
+          "anchor_col": 0,
+          "anchor_row": 4,
+          "rotation": 3
+        }
+      ],
+      "playable_cats": [
+        "banhmi",
+        "nori",
+        "mochi",
+        "sumi",
+        "yuzu",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "banhmi",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 3
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "nori",
+          "anchor_col": 4,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "mochi",
+          "anchor_col": 3,
+          "anchor_row": 4,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "sumi",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 2
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "yuzu",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "map_id": "M05",
+      "index_in_map": 7,
+      "difficulty": 4,
+      "title_vi": "Chồng Sách Đêm",
+      "title_en": "Midnight Books",
+      "cols": 6,
+      "rows": 5,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          4
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "mochi",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "banhmi",
+        "sumi",
+        "azuki",
+        "kinako",
+        "taro",
+        "yuzu"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "banhmi",
+          "anchor_col": 4,
+          "anchor_row": 1,
+          "rotation": 3
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sumi",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "azuki",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 2
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "kinako",
+          "anchor_col": 2,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "taro",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "yuzu",
+          "anchor_col": 3,
+          "anchor_row": 4,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "map_id": "M05",
+      "index_in_map": 8,
+      "difficulty": 4,
+      "title_vi": "Khúc Ru Ánh Trăng",
+      "title_en": "Moonlight Lullaby",
+      "cols": 6,
+      "rows": 5,
+      "void_cells": [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "obstacles": [
+        {
+          "col": 0,
+          "row": 2,
+          "kind": "book"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "banhmi",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 3
+        },
+        {
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 1
+        }
+      ],
+      "playable_cats": [
+        "pudding",
+        "taro",
+        "nori",
+        "sesame",
+        "yuzu"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "pudding",
+          "anchor_col": 3,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "taro",
+          "anchor_col": 1,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "nori",
+          "anchor_col": 5,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "yuzu",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "map_id": "M05",
+      "index_in_map": 9,
+      "difficulty": 5,
+      "title_vi": "Vòng Tay Đêm Yên",
+      "title_en": "Peaceful Embrace",
+      "cols": 6,
+      "rows": 6,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "pudding",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "cat_id": "sesame",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "banhmi",
+        "nori",
+        "sumi",
+        "matcha",
+        "taro",
+        "yuzu"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "banhmi",
+          "anchor_col": 2,
+          "anchor_row": 3,
+          "rotation": 2
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "nori",
+          "anchor_col": 5,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sumi",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 2
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "matcha",
+          "anchor_col": 2,
+          "anchor_row": 5,
+          "rotation": 0
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "taro",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "yuzu",
+          "anchor_col": 1,
+          "anchor_row": 2,
+          "rotation": 1
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "map_id": "M05",
+      "index_in_map": 10,
+      "difficulty": 5,
+      "title_vi": "Trăng Tròn Gác Nhỏ",
+      "title_en": "Full Moon Attic",
+      "cols": 6,
+      "rows": 6,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 3,
+          "kind": "teacup"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "kinako",
+          "anchor_col": 1,
+          "anchor_row": 4,
+          "rotation": 2
+        },
+        {
+          "cat_id": "sesame",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "banhmi",
+        "azuki",
+        "taro",
+        "mochi",
+        "nori",
+        "miso"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "banhmi",
+          "anchor_col": 4,
+          "anchor_row": 1,
+          "rotation": 3
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "azuki",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "taro",
+          "anchor_col": 3,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "mochi",
+          "anchor_col": 2,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "nori",
+          "anchor_col": 1,
+          "anchor_row": 2,
+          "rotation": 1
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "miso",
+          "anchor_col": 5,
+          "anchor_row": 4,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "map_id": "M05",
+      "index_in_map": 11,
+      "difficulty": 5,
+      "title_vi": "Dải Ngân Hà Ấm",
+      "title_en": "Warm Milky Way",
+      "cols": 6,
+      "rows": 6,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "obstacles": [
+        {
+          "col": 2,
+          "row": 2,
+          "kind": "book"
+        },
+        {
+          "col": 3,
+          "row": 3,
+          "kind": "yarn_ball"
+        }
+      ],
+      "fixed_cats": [
+        {
+          "cat_id": "taro",
+          "anchor_col": 0,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "cat_id": "matcha",
+          "anchor_col": 3,
+          "anchor_row": 2,
+          "rotation": 0
+        }
+      ],
+      "playable_cats": [
+        "banhmi",
+        "nori",
+        "sesame",
+        "pudding",
+        "yuzu",
+        "sumi"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "banhmi",
+          "anchor_col": 1,
+          "anchor_row": 3,
+          "rotation": 1
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "nori",
+          "anchor_col": 2,
+          "anchor_row": 1,
+          "rotation": 1
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "sesame",
+          "anchor_col": 4,
+          "anchor_row": 3,
+          "rotation": 0
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "pudding",
+          "anchor_col": 2,
+          "anchor_row": 4,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "yuzu",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 2,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "map_id": "M05",
+      "index_in_map": 12,
+      "difficulty": 5,
+      "title_vi": "Đại Tiệc Mèo Ngủ",
+      "title_en": "Grand Cat Slumber",
+      "cols": 6,
+      "rows": 6,
+      "void_cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "obstacles": [],
+      "fixed_cats": [
+        {
+          "cat_id": "nori",
+          "anchor_col": 5,
+          "anchor_row": 1,
+          "rotation": 0
+        },
+        {
+          "cat_id": "kinako",
+          "anchor_col": 3,
+          "anchor_row": 0,
+          "rotation": 3
+        }
+      ],
+      "playable_cats": [
+        "banhmi",
+        "sumi",
+        "pudding",
+        "azuki",
+        "taro",
+        "mochi"
+      ],
+      "verified_solution": [
+        {
+          "piece_index": 0,
+          "cat_id": "banhmi",
+          "anchor_col": 0,
+          "anchor_row": 1,
+          "rotation": 2
+        },
+        {
+          "piece_index": 1,
+          "cat_id": "sumi",
+          "anchor_col": 0,
+          "anchor_row": 3,
+          "rotation": 3
+        },
+        {
+          "piece_index": 2,
+          "cat_id": "pudding",
+          "anchor_col": 0,
+          "anchor_row": 4,
+          "rotation": 1
+        },
+        {
+          "piece_index": 3,
+          "cat_id": "azuki",
+          "anchor_col": 1,
+          "anchor_row": 0,
+          "rotation": 1
+        },
+        {
+          "piece_index": 4,
+          "cat_id": "taro",
+          "anchor_col": 3,
+          "anchor_row": 2,
+          "rotation": 0
+        },
+        {
+          "piece_index": 5,
+          "cat_id": "mochi",
+          "anchor_col": 3,
+          "anchor_row": 4,
+          "rotation": 3
+        }
+      ]
+    }
+  ]
+}

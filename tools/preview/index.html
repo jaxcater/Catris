@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Catris 3D Portrait Visual QA</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #1e1816; display: flex; justify-content: center; align-items: center; height: 100vh; font-family: system-ui, sans-serif; color: #fff; gap: 20px; }
+  #phone { width: 390px; height: 844px; border-radius: 36px; overflow: hidden; box-shadow: 0 24px 60px rgba(0,0,0,0.65); position: relative; border: 6px solid #2b2421; }
+  #hud { position: absolute; top: 14px; left: 16px; right: 16px; display: flex; justify-content: space-between; pointer-events: none; z-index: 10; }
+  .pill { background: rgba(255, 248, 238, 0.88); color: #403630; padding: 7px 14px; border-radius: 20px; font-weight: 700; font-size: 13px; box-shadow: 0 3px 10px rgba(64,40,30,0.16); }
+  #sidebar { width: 300px; display: flex; flex-direction: column; gap: 10px; }
+  button { padding: 10px 14px; border: none; border-radius: 10px; background: #e986a4; color: #fff; font-weight: 700; cursor: pointer; }
+  button:hover { opacity: 0.9; }
+</style>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+<div id="phone">
+  <div id="hud">
+    <div class="pill">Góc Nắng · Màn 3</div>
+    <div class="pill">5/5 Mèo</div>
+  </div>
+</div>
+<div id="sidebar">
+  <h3>Catris 3D Sculpt QA</h3>
+  <div id="status">Loading 3D sculpted cats & M01 diorama...</div>
+  <button id="btnRoster">Show All 12 Cats Grid</button>
+  <button id="btnM01">Show M01 Classic Board</button>
+</div>
+<script type="module">
+import * as THREE from 'three';
+import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
+
+const container = document.getElementById('phone');
+const statusEl = document.getElementById('status');
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(390, 844);
+renderer.setPixelRatio(2);
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.08;
+container.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color('#E3A05B');
+
+// Orthographic portrait camera at 78 deg elevation (matching ART_BIBLE.md!)
+const aspect = 390 / 844;
+const frustumH = 2.75;
+const camera = new THREE.OrthographicCamera(
+  -frustumH * aspect / 2, frustumH * aspect / 2,
+  frustumH / 2, -frustumH / 2, 0.1, 20
+);
+camera.position.set(0, 4.2, 0.88);
+camera.lookAt(0, 0, 0.08);
+
+// Warm afternoon lighting
+const hemi = new THREE.HemisphereLight('#FFF5E0', '#7D5C66', 0.95);
+scene.add(hemi);
+
+const sun = new THREE.DirectionalLight('#FFE5B4', 1.65);
+sun.position.set(1.8, 3.6, -1.2);
+sun.castShadow = true;
+sun.shadow.mapSize.set(1024, 1024);
+sun.shadow.camera.left = -2; sun.shadow.camera.right = 2;
+sun.shadow.camera.top = 2.5; sun.shadow.camera.bottom = -2.5;
+scene.add(sun);
+
+const texLoader = new THREE.TextureLoader();
+const objLoader = new OBJLoader();
+const loadTex = (url) => new Promise(res => texLoader.load(url, t => { t.colorSpace = THREE.SRGBColorSpace; res(t); }));
+const loadObj = (url) => new Promise(res => objLoader.load(url, res));
+
+const floorTex = await loadTex('/Sources/CatrisApp/Assets/Textures/floor_m01.png');
+floorTex.wrapS = floorTex.wrapT = THREE.RepeatWrapping;
+floorTex.repeat.set(2.2, 4.4);
+const floorMat = new THREE.MeshStandardMaterial({ map: floorTex, roughness: 0.62, metalness: 0.0 });
+const floorMesh = new THREE.Mesh(new THREE.PlaneGeometry(3.2, 5.2), floorMat);
+floorMesh.rotation.x = -Math.PI / 2;
+floorMesh.receiveShadow = true;
+scene.add(floorMesh);
+
+// Window sunbeam gobo overlay matching Game.mp4
+const goboTex = await loadTex('/Sources/CatrisApp/Assets/Textures/gobo_window_m01.png');
+const goboPlane = new THREE.Mesh(
+  new THREE.PlaneGeometry(2.8, 3.6),
+  new THREE.MeshBasicMaterial({ map: goboTex, transparent: true, opacity: 0.30, blending: THREE.AdditiveBlending, depthWrite: false })
+);
+goboPlane.rotation.x = -Math.PI / 2;
+goboPlane.position.set(0.05, 0.16, -0.15);
+scene.add(goboPlane);
+
+const rootGroup = new THREE.Group();
+scene.add(rootGroup);
+
+const anchors = await (await fetch('/Sources/CatrisApp/Assets/Data/cat_anchors.json')).json();
+const anchorById = Object.fromEntries(anchors.map(a => [a.id, a]));
+
+async function buildCat(id) {
+  const grp = new THREE.Group();
+  const obj = await loadObj(`/tools/preview/obj/cat_${id}.obj`);
+  const tex = await loadTex(`/Sources/CatrisApp/Assets/Textures/cat_${id}_albedo.png`);
+  const mat = new THREE.MeshStandardMaterial({ map: tex, roughness: 0.74, metalness: 0.0 });
+  obj.traverse(ch => { if (ch.isMesh) { ch.material = mat; ch.castShadow = true; ch.receiveShadow = true; } });
+  grp.add(obj);
+
+  // Add expressive 3D face features from exact raycast anchors!
+  const a = anchorById[id];
+  if (a) {
+    const eyeMat = new THREE.MeshStandardMaterial({ color: a.eye_color_hex, roughness: 0.25 });
+    const pupilMat = new THREE.MeshStandardMaterial({ color: '#1A181C', roughness: 0.2 });
+    const specMat = new THREE.MeshBasicMaterial({ color: '#FFFFFF' });
+    for (const ep of [a.left_eye_pos, a.right_eye_pos]) {
+      const eye = new THREE.Mesh(new THREE.SphereGeometry(a.eye_radius, 16, 12), eyeMat);
+      eye.scale.set(1, 0.55, 1);
+      eye.position.set(ep[0], ep[1] + 0.002, ep[2]);
+      grp.add(eye);
+      const pupil = new THREE.Mesh(new THREE.SphereGeometry(a.eye_radius * 0.55, 12, 10), pupilMat);
+      pupil.position.set(ep[0], ep[1] + a.eye_radius * 0.45, ep[2] + 0.002);
+      grp.add(pupil);
+      const glint = new THREE.Mesh(new THREE.SphereGeometry(a.eye_radius * 0.22, 8, 8), specMat);
+      glint.position.set(ep[0] - 0.004, ep[1] + a.eye_radius * 0.65, ep[2] - 0.003);
+      grp.add(glint);
+    }
+    const nose = new THREE.Mesh(new THREE.SphereGeometry(0.009, 10, 8), new THREE.MeshStandardMaterial({ color: '#D67B84', roughness: 0.35 }));
+    nose.position.set(a.nose_pos[0], a.nose_pos[1] + 0.003, a.nose_pos[2]);
+    grp.add(nose);
+
+    if (a.has_fangs) {
+      for (const sx of [-0.008, 0.008]) {
+        const fang = new THREE.Mesh(new THREE.ConeGeometry(0.004, 0.011, 8), specMat);
+        fang.rotation.x = Math.PI * 0.72;
+        fang.position.set(a.nose_pos[0] + sx, a.nose_pos[1] - 0.001, a.nose_pos[2] + 0.012);
+        grp.add(fang);
+      }
+    }
+    if (a.has_fish_plushie && a.fish_pos) {
+      const fish = await loadObj('/tools/preview/obj/prop_fish_plushie.obj');
+      const ftex = await loadTex('/Sources/CatrisApp/Assets/Textures/prop_fish_albedo.png');
+      fish.traverse(c => { if (c.isMesh) { c.material = new THREE.MeshStandardMaterial({ map: ftex, roughness: 0.75 }); c.castShadow = true; } });
+      fish.position.set(a.fish_pos[0], a.fish_pos[1], a.fish_pos[2]);
+      grp.add(fish);
+    }
+    if (a.has_ear_bow && a.bow_pos) {
+      const bow = await loadObj('/tools/preview/obj/prop_ear_bow.obj');
+      bow.traverse(c => { if (c.isMesh) { c.material = new THREE.MeshStandardMaterial({ color: '#6BB6F0', roughness: 0.55 }); } });
+      bow.position.set(a.bow_pos[0], a.bow_pos[1], a.bow_pos[2]);
+      grp.add(bow);
+    }
+  }
+  return grp;
+}
+
+async function showM01Classic() {
+  rootGroup.clear();
+  // Pink chevron plush rug
+  const rugObj = await loadObj('/tools/preview/obj/prop_rug.obj');
+  const rugTex = await loadTex('/Sources/CatrisApp/Assets/Textures/rug_m01.png');
+  rugObj.traverse(c => { if (c.isMesh) { c.material = new THREE.MeshStandardMaterial({ map: rugTex, roughness: 0.86 }); c.receiveShadow = true; c.castShadow = true; } });
+  rugObj.scale.set(1.16, 1.0, 1.16);
+  rugObj.position.set(0, 0.001, -0.05);
+  rootGroup.add(rugObj);
+
+  // Crisp white 4x4 grid lines on rug!
+  const cell = 0.25;
+  const gridMat = new THREE.MeshBasicMaterial({ color: '#FFFFFF', transparent: true, opacity: 0.78 });
+  for (let c = 0; c < 4; c++) for (let r = 0; r < 4; r++) {
+    const cx = (c - 1.5) * cell;
+    const cz = -(r - 1.5) * cell - 0.05;
+    const edge = new THREE.LineSegments(
+      new THREE.EdgesGeometry(new THREE.PlaneGeometry(cell * 0.94, cell * 0.94)),
+      new THREE.LineBasicMaterial({ color: '#FFFFFF' })
+    );
+    edge.rotation.x = -Math.PI / 2;
+    edge.position.set(cx, 0.019, cz);
+    rootGroup.add(edge);
+  }
+
+  // Acoustic guitar bottom-left, monstera right, curtains top!
+  const guitar = await loadObj('/tools/preview/obj/prop_guitar.obj');
+  const gTex = await loadTex('/Sources/CatrisApp/Assets/Textures/prop_guitar_albedo.png');
+  guitar.traverse(c => { if (c.isMesh) { c.material = new THREE.MeshStandardMaterial({ map: gTex, roughness: 0.52 }); c.castShadow = true; } });
+  guitar.position.set(-0.48, 0.0, 0.92);
+  guitar.rotation.y = 0.35;
+  rootGroup.add(guitar);
+
+  const pot = await loadObj('/tools/preview/obj/prop_ceramic_pot.obj');
+  pot.traverse(c => { if (c.isMesh) { c.material = new THREE.MeshStandardMaterial({ color: '#C67B5C', roughness: 0.38 }); c.castShadow = true; } });
+  pot.position.set(0.54, 0.0, 0.72);
+  rootGroup.add(pot);
+
+  const plant = await loadObj('/tools/preview/obj/prop_monstera.obj');
+  const leafTex = await loadTex('/Sources/CatrisApp/Assets/Textures/prop_leaf_albedo.png');
+  plant.traverse(c => { if (c.isMesh) { c.material = new THREE.MeshStandardMaterial({ map: leafTex, roughness: 0.65, side: THREE.DoubleSide }); c.castShadow = true; } });
+  plant.position.set(0.54, 0.04, 0.72);
+  rootGroup.add(plant);
+
+  const curtain = await loadObj('/tools/preview/obj/prop_curtain.obj');
+  curtain.traverse(c => { if (c.isMesh) { c.material = new THREE.MeshStandardMaterial({ color: '#FAF2E4', roughness: 0.88, transparent: true, opacity: 0.88, side: THREE.DoubleSide }); } });
+  curtain.position.set(-0.35, 0.05, -1.25);
+  rootGroup.add(curtain);
+
+  // Place the exact 5 video cats on the 4x4 classic board!
+  const placements = [
+    ['nori',    -0.375, -0.05],
+    ['sumi',    -0.000,  0.075],
+    ['pudding',  0.250,  0.075],
+    ['mochi',    0.250, -0.300],
+    ['miso',    -0.125, -0.425],
+  ];
+  for (const [id, x, z] of placements) {
+    const cat = await buildCat(id);
+    cat.position.set(x, 0.017, z);
+    rootGroup.add(cat);
+  }
+  statusEl.textContent = 'Rendered M01 Classic Board (5 Sculpted 3D Hero Cats + Props)';
+}
+
+async function showAll12Roster() {
+  rootGroup.clear();
+  const ids = ['nori','sumi','pudding','mochi','miso','yuzu','matcha','sesame','kinako','azuki','taro','banhmi'];
+  for (let i = 0; i < ids.length; i++) {
+    const cat = await buildCat(ids[i]);
+    const col = i % 3, row = Math.floor(i / 3);
+    cat.scale.setScalar(0.52);
+    cat.position.set((col - 1) * 0.40, 0.01, (row - 1.5) * 0.56);
+    rootGroup.add(cat);
+  }
+  statusEl.textContent = 'Rendered All 12 Sculpted 3D Cats';
+}
+
+document.getElementById('btnM01').onclick = showM01Classic;
+document.getElementById('btnRoster').onclick = showAll12Roster;
+
+await showM01Classic();
+window.__CATRIS_READY = true;
+
+function animate() {
+  requestAnimationFrame(animate);
+  renderer.render(scene, camera);
+}
+animate();
+</script>
+</body>
+</html>

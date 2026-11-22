@@ -1,0 +1,778 @@
+[
+  {
+    "id": "nori",
+    "head_pos": [
+      0,
+      0.108,
+      -0.355
+    ],
+    "left_eye_pos": [
+      -0.034,
+      0.11968419,
+      -0.341
+    ],
+    "right_eye_pos": [
+      0.034,
+      0.119684875,
+      -0.341
+    ],
+    "eye_normal": [
+      -1.5041002E-07,
+      0.9983016,
+      0.05825624
+    ],
+    "nose_pos": [
+      0,
+      0.1188398,
+      -0.31599998
+    ],
+    "left_whisker_pos": [
+      -0.072,
+      0.10829964,
+      -0.32299998
+    ],
+    "right_whisker_pos": [
+      0.072,
+      0.10829964,
+      -0.32299998
+    ],
+    "zzz_pos": [
+      0.03,
+      0.168,
+      -0.415
+    ],
+    "face_yaw_deg": 0,
+    "eye_spacing": 0.068,
+    "eye_radius": 0.022,
+    "eye_style": "round_gold",
+    "eye_color_hex": "#F7C948",
+    "has_fangs": true,
+    "has_blep": false,
+    "has_fish_plushie": false,
+    "fish_pos": null,
+    "has_ear_bow": false,
+    "bow_pos": null,
+    "bounds_min": [
+      -0.16499999,
+      -0.01,
+      -0.53999996
+    ],
+    "bounds_max": [
+      0.16499999,
+      0.17300001,
+      0.54499996
+    ]
+  },
+  {
+    "id": "sumi",
+    "head_pos": [
+      -0.125,
+      0.112,
+      -0.245
+    ],
+    "left_eye_pos": [
+      -0.15900001,
+      0.12227472,
+      -0.231
+    ],
+    "right_eye_pos": [
+      -0.091,
+      0.12227548,
+      -0.231
+    ],
+    "eye_normal": [
+      7.540568E-08,
+      0.99872243,
+      0.050531648
+    ],
+    "nose_pos": [
+      -0.125,
+      0.122042,
+      -0.206
+    ],
+    "left_whisker_pos": [
+      -0.197,
+      0.11048532,
+      -0.213
+    ],
+    "right_whisker_pos": [
+      -0.053000003,
+      0.11048532,
+      -0.213
+    ],
+    "zzz_pos": [
+      -0.095,
+      0.172,
+      -0.305
+    ],
+    "face_yaw_deg": 0,
+    "eye_spacing": 0.068,
+    "eye_radius": 0.0195,
+    "eye_style": "sleepy_amber",
+    "eye_color_hex": "#F08C3A",
+    "has_fangs": false,
+    "has_blep": false,
+    "has_fish_plushie": false,
+    "fish_pos": null,
+    "has_ear_bow": false,
+    "bow_pos": null,
+    "bounds_min": [
+      -0.29,
+      -0.01,
+      -0.415
+    ],
+    "bounds_max": [
+      0.29,
+      0.177,
+      0.415
+    ]
+  },
+  {
+    "id": "pudding",
+    "head_pos": [
+      -0.125,
+      0.11,
+      -0.245
+    ],
+    "left_eye_pos": [
+      -0.15900001,
+      0.12116548,
+      -0.231
+    ],
+    "right_eye_pos": [
+      -0.091,
+      0.12116754,
+      -0.231
+    ],
+    "eye_normal": [
+      -0.00010644183,
+      0.9990364,
+      0.04389018
+    ],
+    "nose_pos": [
+      -0.125,
+      0.12088905,
+      -0.206
+    ],
+    "left_whisker_pos": [
+      -0.197,
+      0.10968463,
+      -0.213
+    ],
+    "right_whisker_pos": [
+      -0.053000003,
+      0.10990145,
+      -0.213
+    ],
+    "zzz_pos": [
+      -0.095,
+      0.17,
+      -0.305
+    ],
+    "face_yaw_deg": 0,
+    "eye_spacing": 0.068,
+    "eye_radius": 0.0195,
+    "eye_style": "happy_calico",
+    "eye_color_hex": "#3A2C28",
+    "has_fangs": false,
+    "has_blep": true,
+    "has_fish_plushie": true,
+    "fish_pos": [
+      -0.125,
+      0.13572949,
+      -0.085
+    ],
+    "has_ear_bow": false,
+    "bow_pos": null,
+    "bounds_min": [
+      -0.29,
+      -0.01,
+      -0.415
+    ],
+    "bounds_max": [
+      0.29,
+      0.175,
+      0.415
+    ]
+  },
+  {
+    "id": "mochi",
+    "head_pos": [
+      0.115,
+      0.106,
+      -0.12
+    ],
+    "left_eye_pos": [
+      0.12900001,
+      0.12004185,
+      -0.085999995
+    ],
+    "right_eye_pos": [
+      0.12900001,
+      0.11885198,
+      -0.154
+    ],
+    "eye_normal": [
+      0.034640174,
+      0.99875146,
+      -0.035993055
+    ],
+    "nose_pos": [
+      0.154,
+      0.11822159,
+      -0.12
+    ],
+    "left_whisker_pos": [
+      0.147,
+      0.114003174,
+      -0.048
+    ],
+    "right_whisker_pos": [
+      0.147,
+      0.10723249,
+      -0.192
+    ],
+    "zzz_pos": [
+      0.145,
+      0.166,
+      -0.17999999
+    ],
+    "face_yaw_deg": 90,
+    "eye_spacing": 0.068,
+    "eye_radius": 0.0195,
+    "eye_style": "chill_dark",
+    "eye_color_hex": "#2F3036",
+    "has_fangs": false,
+    "has_blep": false,
+    "has_fish_plushie": false,
+    "fish_pos": null,
+    "has_ear_bow": false,
+    "bow_pos": null,
+    "bounds_min": [
+      -0.29,
+      -0.01,
+      -0.29
+    ],
+    "bounds_max": [
+      0.29,
+      0.171,
+      0.295
+    ]
+  },
+  {
+    "id": "miso",
+    "head_pos": [
+      0,
+      0.114,
+      -0.015
+    ],
+    "left_eye_pos": [
+      -0.034,
+      0.1237716,
+      -0.0009999992
+    ],
+    "right_eye_pos": [
+      0.034,
+      0.12377234,
+      -0.0009999992
+    ],
+    "eye_normal": [
+      -7.480158E-07,
+      0.9983475,
+      0.05746444
+    ],
+    "nose_pos": [
+      0,
+      0.123483606,
+      0.024
+    ],
+    "left_whisker_pos": [
+      -0.072,
+      0.111436255,
+      0.016999997
+    ],
+    "right_whisker_pos": [
+      0.072,
+      0.111436255,
+      0.016999997
+    ],
+    "zzz_pos": [
+      0.03,
+      0.174,
+      -0.074999996
+    ],
+    "face_yaw_deg": 0,
+    "eye_spacing": 0.068,
+    "eye_radius": 0.022,
+    "eye_style": "big_blue",
+    "eye_color_hex": "#4B8CEB",
+    "has_fangs": false,
+    "has_blep": false,
+    "has_fish_plushie": false,
+    "fish_pos": null,
+    "has_ear_bow": false,
+    "bow_pos": null,
+    "bounds_min": [
+      -0.16499999,
+      -0.01,
+      -0.16499999
+    ],
+    "bounds_max": [
+      0.20199999,
+      0.17899999,
+      0.16499999
+    ]
+  },
+  {
+    "id": "yuzu",
+    "head_pos": [
+      -0.12,
+      0.106,
+      0
+    ],
+    "left_eye_pos": [
+      -0.154,
+      0.11943401,
+      0.014
+    ],
+    "right_eye_pos": [
+      -0.085999995,
+      0.12118095,
+      0.014
+    ],
+    "eye_normal": [
+      -0.043154143,
+      0.99758077,
+      0.054500785
+    ],
+    "nose_pos": [
+      -0.12,
+      0.11802478,
+      0.039
+    ],
+    "left_whisker_pos": [
+      -0.192,
+      0.10809902,
+      0.031999998
+    ],
+    "right_whisker_pos": [
+      -0.048,
+      0.11597049,
+      0.031999998
+    ],
+    "zzz_pos": [
+      -0.089999996,
+      0.166,
+      -0.06
+    ],
+    "face_yaw_deg": 0,
+    "eye_spacing": 0.068,
+    "eye_radius": 0.0195,
+    "eye_style": "sky",
+    "eye_color_hex": "#5BA8E6",
+    "has_fangs": false,
+    "has_blep": false,
+    "has_fish_plushie": false,
+    "fish_pos": null,
+    "has_ear_bow": false,
+    "bow_pos": null,
+    "bounds_min": [
+      -0.29,
+      -0.01,
+      -0.18499999
+    ],
+    "bounds_max": [
+      0.31,
+      0.171,
+      0.16499999
+    ]
+  },
+  {
+    "id": "matcha",
+    "head_pos": [
+      -0.24,
+      0.106,
+      0
+    ],
+    "left_eye_pos": [
+      -0.274,
+      0.11928118,
+      0.014
+    ],
+    "right_eye_pos": [
+      -0.206,
+      0.11935825,
+      0.014
+    ],
+    "eye_normal": [
+      -0.015870411,
+      0.99841225,
+      0.054048073
+    ],
+    "nose_pos": [
+      -0.24,
+      0.11733045,
+      0.039
+    ],
+    "left_whisker_pos": [
+      -0.31199998,
+      0.10833551,
+      0.031999998
+    ],
+    "right_whisker_pos": [
+      -0.168,
+      0.112105064,
+      0.031999998
+    ],
+    "zzz_pos": [
+      -0.21,
+      0.166,
+      -0.06
+    ],
+    "face_yaw_deg": 0,
+    "eye_spacing": 0.068,
+    "eye_radius": 0.0195,
+    "eye_style": "emerald",
+    "eye_color_hex": "#72C489",
+    "has_fangs": false,
+    "has_blep": false,
+    "has_fish_plushie": false,
+    "fish_pos": null,
+    "has_ear_bow": false,
+    "bow_pos": null,
+    "bounds_min": [
+      -0.415,
+      -0.01,
+      -0.18499999
+    ],
+    "bounds_max": [
+      0.44000003,
+      0.171,
+      0.16499999
+    ]
+  },
+  {
+    "id": "sesame",
+    "head_pos": [
+      0,
+      0.125,
+      -0.12
+    ],
+    "left_eye_pos": [
+      -0.034,
+      0.1484226,
+      -0.106
+    ],
+    "right_eye_pos": [
+      0.034,
+      0.15195723,
+      -0.106
+    ],
+    "eye_normal": [
+      -0.041777216,
+      0.9893335,
+      -0.13954826
+    ],
+    "nose_pos": [
+      0,
+      0.1548384,
+      -0.081
+    ],
+    "left_whisker_pos": [
+      -0.072,
+      0.14524125,
+      -0.088
+    ],
+    "right_whisker_pos": [
+      0.072,
+      0.15164502,
+      -0.088
+    ],
+    "zzz_pos": [
+      0.03,
+      0.185,
+      -0.17999999
+    ],
+    "face_yaw_deg": 0,
+    "eye_spacing": 0.068,
+    "eye_radius": 0.022,
+    "eye_style": "round_gold",
+    "eye_color_hex": "#F5C64F",
+    "has_fangs": false,
+    "has_blep": false,
+    "has_fish_plushie": false,
+    "fish_pos": null,
+    "has_ear_bow": false,
+    "bow_pos": null,
+    "bounds_min": [
+      -0.29,
+      -0.01,
+      -0.29
+    ],
+    "bounds_max": [
+      0.31,
+      0.19,
+      0.29
+    ]
+  },
+  {
+    "id": "kinako",
+    "head_pos": [
+      0,
+      0.11,
+      -0.125
+    ],
+    "left_eye_pos": [
+      -0.034,
+      0.12129937,
+      -0.111
+    ],
+    "right_eye_pos": [
+      0.034,
+      0.12130014,
+      -0.111
+    ],
+    "eye_normal": [
+      -6.099192E-07,
+      0.99935645,
+      0.035869744
+    ],
+    "nose_pos": [
+      0,
+      0.12120089,
+      -0.085999995
+    ],
+    "left_whisker_pos": [
+      -0.072,
+      0.11006637,
+      -0.093
+    ],
+    "right_whisker_pos": [
+      0.072,
+      0.110065795,
+      -0.093
+    ],
+    "zzz_pos": [
+      0.03,
+      0.17,
+      -0.185
+    ],
+    "face_yaw_deg": 0,
+    "eye_spacing": 0.068,
+    "eye_radius": 0.0195,
+    "eye_style": "emerald",
+    "eye_color_hex": "#62A85A",
+    "has_fangs": false,
+    "has_blep": false,
+    "has_fish_plushie": false,
+    "fish_pos": null,
+    "has_ear_bow": false,
+    "bow_pos": null,
+    "bounds_min": [
+      -0.415,
+      -0.01,
+      -0.29
+    ],
+    "bounds_max": [
+      0.42,
+      0.175,
+      0.29
+    ]
+  },
+  {
+    "id": "azuki",
+    "head_pos": [
+      0.125,
+      0.108,
+      -0.245
+    ],
+    "left_eye_pos": [
+      0.091,
+      0.120152675,
+      -0.231
+    ],
+    "right_eye_pos": [
+      0.15900001,
+      0.120153375,
+      -0.231
+    ],
+    "eye_normal": [
+      -8.0505487E-07,
+      0.9991374,
+      0.041526467
+    ],
+    "nose_pos": [
+      0.125,
+      0.11977321,
+      -0.206
+    ],
+    "left_whisker_pos": [
+      0.053000003,
+      0.10896268,
+      -0.213
+    ],
+    "right_whisker_pos": [
+      0.197,
+      0.10896268,
+      -0.213
+    ],
+    "zzz_pos": [
+      0.155,
+      0.168,
+      -0.305
+    ],
+    "face_yaw_deg": 0,
+    "eye_spacing": 0.068,
+    "eye_radius": 0.0195,
+    "eye_style": "happy_calico",
+    "eye_color_hex": "#453935",
+    "has_fangs": false,
+    "has_blep": false,
+    "has_fish_plushie": false,
+    "fish_pos": null,
+    "has_ear_bow": true,
+    "bow_pos": [
+      0.18,
+      0.14235106,
+      -0.287
+    ],
+    "bounds_min": [
+      -0.29,
+      -0.01,
+      -0.415
+    ],
+    "bounds_max": [
+      0.29,
+      0.17300001,
+      0.415
+    ]
+  },
+  {
+    "id": "taro",
+    "head_pos": [
+      0.125,
+      0.108,
+      -0.245
+    ],
+    "left_eye_pos": [
+      0.091,
+      0.12015508,
+      -0.231
+    ],
+    "right_eye_pos": [
+      0.15900001,
+      0.120153986,
+      -0.231
+    ],
+    "eye_normal": [
+      0.00013039412,
+      0.99920666,
+      0.039825864
+    ],
+    "nose_pos": [
+      0.125,
+      0.119793266,
+      -0.206
+    ],
+    "left_whisker_pos": [
+      0.053000003,
+      0.10909888,
+      -0.213
+    ],
+    "right_whisker_pos": [
+      0.197,
+      0.1088711,
+      -0.213
+    ],
+    "zzz_pos": [
+      0.155,
+      0.168,
+      -0.305
+    ],
+    "face_yaw_deg": 0,
+    "eye_spacing": 0.068,
+    "eye_radius": 0.0195,
+    "eye_style": "sleepy_amber",
+    "eye_color_hex": "#E6A94C",
+    "has_fangs": false,
+    "has_blep": false,
+    "has_fish_plushie": false,
+    "fish_pos": null,
+    "has_ear_bow": false,
+    "bow_pos": null,
+    "bounds_min": [
+      -0.29,
+      -0.01,
+      -0.415
+    ],
+    "bounds_max": [
+      0.29,
+      0.17300001,
+      0.415
+    ]
+  },
+  {
+    "id": "banhmi",
+    "head_pos": [
+      0,
+      0.12,
+      0.115
+    ],
+    "left_eye_pos": [
+      -0.034,
+      0.13704817,
+      0.12900001
+    ],
+    "right_eye_pos": [
+      0.034,
+      0.13704775,
+      0.12900001
+    ],
+    "eye_normal": [
+      -7.5823147E-07,
+      0.99915606,
+      0.04107447
+    ],
+    "nose_pos": [
+      0,
+      0.13677694,
+      0.154
+    ],
+    "left_whisker_pos": [
+      -0.072,
+      0.12846206,
+      0.147
+    ],
+    "right_whisker_pos": [
+      0.072,
+      0.1284582,
+      0.147
+    ],
+    "zzz_pos": [
+      0.03,
+      0.17999999,
+      0.055000003
+    ],
+    "face_yaw_deg": 0,
+    "eye_spacing": 0.068,
+    "eye_radius": 0.0195,
+    "eye_style": "round_gold",
+    "eye_color_hex": "#E8B84B",
+    "has_fangs": false,
+    "has_blep": false,
+    "has_fish_plushie": false,
+    "fish_pos": null,
+    "has_ear_bow": false,
+    "bow_pos": null,
+    "bounds_min": [
+      -0.415,
+      -0.01,
+      -0.29
+    ],
+    "bounds_max": [
+      0.415,
+      0.185,
+      0.29
+    ]
+  }
+]

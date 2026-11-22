@@ -1,0 +1,776 @@
+{
+  "recorded_on": "2026-11-22",
+  "status": "downloaded_not_executed",
+  "files": [
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/create-ui/SECURITY.md",
+      "local_path": "preproduction/vendor/unity/skills/create-ui/SECURITY.md",
+      "git_blob_sha": "626172f71963d0f1895de8eda53632f76710952c"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/create-ui/SKILL.md",
+      "local_path": "preproduction/vendor/unity/skills/create-ui/SKILL.md",
+      "git_blob_sha": "351153827b3cf5a1d140a6ab8819e82ce3e72313"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/create-ui/references/imgui-skill.md",
+      "local_path": "preproduction/vendor/unity/skills/create-ui/references/imgui-skill.md",
+      "git_blob_sha": "34c057ae98455b1a4d7488e6e033934db723d64a"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/create-ui/references/ugui-scrollview-setup.md",
+      "local_path": "preproduction/vendor/unity/skills/create-ui/references/ugui-scrollview-setup.md",
+      "git_blob_sha": "1262eb5176d6ba9ab31466b9192221f3ee448744"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/create-ui/references/ugui-skill.md",
+      "local_path": "preproduction/vendor/unity/skills/create-ui/references/ugui-skill.md",
+      "git_blob_sha": "15a1e1bb12123a6b1423480a681db6e61d1b3051"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/create-ui/references/ui-visual-design.md",
+      "local_path": "preproduction/vendor/unity/skills/create-ui/references/ui-visual-design.md",
+      "git_blob_sha": "7acbed15d93df886b03fa98bed8a835a8c27a14d"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/create-ui/references/uitk-painter2d.md",
+      "local_path": "preproduction/vendor/unity/skills/create-ui/references/uitk-painter2d.md",
+      "git_blob_sha": "1a8c2967cb84d01f156d37f9d97c02e86386d0e5"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/create-ui/references/uitk-pointermanipulator-guide.md",
+      "local_path": "preproduction/vendor/unity/skills/create-ui/references/uitk-pointermanipulator-guide.md",
+      "git_blob_sha": "5cdb3564d84d7ff46fcd853177f867cfcfd06919"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/create-ui/references/uitk-skill.md",
+      "local_path": "preproduction/vendor/unity/skills/create-ui/references/uitk-skill.md",
+      "git_blob_sha": "d4e8e9dd7ecb9f82b1d0f3bea763ebde064a61e3"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/create-ui/references/uitk-svg-icons.md",
+      "local_path": "preproduction/vendor/unity/skills/create-ui/references/uitk-svg-icons.md",
+      "git_blob_sha": "a5b1feeb332814a6350dcf2351c0ad19d0132864"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/create-ui/references/uitk-testing.md",
+      "local_path": "preproduction/vendor/unity/skills/create-ui/references/uitk-testing.md",
+      "git_blob_sha": "5fc37b6ac4992d176e26a6c81d2c9c94492a7064"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/optimize-audio/SECURITY.md",
+      "local_path": "preproduction/vendor/unity/skills/optimize-audio/SECURITY.md",
+      "git_blob_sha": "d35abe8c9e0256bd6ef9c6d0084f97d64d4ff6ef"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/optimize-audio/SKILL.md",
+      "local_path": "preproduction/vendor/unity/skills/optimize-audio/SKILL.md",
+      "git_blob_sha": "48c372b5d5bba6e440b5aeddf1318c7828dde794"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/optimize-audio/references/audio-import-api.md",
+      "local_path": "preproduction/vendor/unity/skills/optimize-audio/references/audio-import-api.md",
+      "git_blob_sha": "d7be3cd84f5c9af572cb1a3d60a1956faa048973"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/optimize-audio/references/platform-settings.md",
+      "local_path": "preproduction/vendor/unity/skills/optimize-audio/references/platform-settings.md",
+      "git_blob_sha": "da2f4005249fd1a0ace6c520ac09b5a910170c0b"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/optimize-audio/references/troubleshooting.md",
+      "local_path": "preproduction/vendor/unity/skills/optimize-audio/references/troubleshooting.md",
+      "git_blob_sha": "5d269b0a3621cdea208487305503c30916940ecb"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/route-audio-to-mixer-groups/SECURITY.md",
+      "local_path": "preproduction/vendor/unity/skills/route-audio-to-mixer-groups/SECURITY.md",
+      "git_blob_sha": "dd59c2d33fe65c14e032c8192a60c2391efe5e42"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/route-audio-to-mixer-groups/SKILL.md",
+      "local_path": "preproduction/vendor/unity/skills/route-audio-to-mixer-groups/SKILL.md",
+      "git_blob_sha": "1e4316183aa0cfcb33b836ff5fa45c9cc78bc6b3"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/route-audio-to-mixer-groups/references/api.md",
+      "local_path": "preproduction/vendor/unity/skills/route-audio-to-mixer-groups/references/api.md",
+      "git_blob_sha": "c588ef5b8e152be3665ea7d11225ba8dac29c422"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/SECURITY.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/SECURITY.md",
+      "git_blob_sha": "6854f7653083e8316e0c690fc6500e38aa64d4a6"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/SKILL.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/SKILL.md",
+      "git_blob_sha": "88620f010f31e773e3df88cd04521de76a043ce8"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/CHANGELOG.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/CHANGELOG.md",
+      "git_blob_sha": "36890727d24c46ac1f5f2f769b5c039465ec4434"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/auth-license-cloud.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/auth-license-cloud.md",
+      "git_blob_sha": "095ff1db659e6775478aa725629e7ac955622785"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/build-run-test.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/build-run-test.md",
+      "git_blob_sha": "0e304d71a5089b49b93ccd32efce9007ec8d21bd"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/cloud-automation.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/cloud-automation.md",
+      "git_blob_sha": "7c17f47cb33a34756fdbd33fc364ea8b0e4e93b9"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/collaboration.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/collaboration.md",
+      "git_blob_sha": "58d4a8409eae2e3e2cdabb7d06de68beb92bab36"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/common-workflows.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/common-workflows.md",
+      "git_blob_sha": "741268b2e556a11b45e3a93227acae3bfc97d7cf"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/config-hub.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/config-hub.md",
+      "git_blob_sha": "88a65d67107a56ab1f994ebca46df428659d4f74"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/diagnostics-maintenance.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/diagnostics-maintenance.md",
+      "git_blob_sha": "2751e465fc0de048d56489a8d4a758bbc4e628df"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/docs-workflow.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/docs-workflow.md",
+      "git_blob_sha": "a63f4436fc52e017d4157b77b5ac743f61c9b77c"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/editors-install.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/editors-install.md",
+      "git_blob_sha": "ff42a66fc4eb70cd474ced23e05e23e95626ee6b"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/exit-codes.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/exit-codes.md",
+      "git_blob_sha": "a26759674f75bbd5e11768fe48d101a2e43d1437"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/global-flags-env.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/global-flags-env.md",
+      "git_blob_sha": "10f5aae8d55f101c187e339a22c274d04aafe458"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/integration-advanced.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/integration-advanced.md",
+      "git_blob_sha": "8f01276c09eb8b761646e2c19e92d06c98bd2b5c"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/notes.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/notes.md",
+      "git_blob_sha": "9440bfc48fc5203fde744102b852aa4da89e0e0a"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/playmode-verification-loop.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/playmode-verification-loop.md",
+      "git_blob_sha": "65b27b9c05eab9e92a3240db529381b526ab742a"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/projects-templates.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/projects-templates.md",
+      "git_blob_sha": "3cb7d815e49cddef321811ea11764d5d2282e820"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/version-control.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/version-control.md",
+      "git_blob_sha": "083d7b2839d501b5e6c34e045299acfabcf5f69a"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-cli/references/worktrees.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-cli/references/worktrees.md",
+      "git_blob_sha": "64bc7664ef2c02bc3e07ca7116722871d03cf04a"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-pipeline/SECURITY.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-pipeline/SECURITY.md",
+      "git_blob_sha": "40e68177255317b9be1f68af70c8142a638ececb"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/unity-pipeline/SKILL.md",
+      "local_path": "preproduction/vendor/unity/skills/unity-pipeline/SKILL.md",
+      "git_blob_sha": "454094198d468741c09c752799cc747d85e29353"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/urp-postprocessing/SECURITY.md",
+      "local_path": "preproduction/vendor/unity/skills/urp-postprocessing/SECURITY.md",
+      "git_blob_sha": "9e82b619446fe107ce65701c3c78aa1cabcc5b59"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/urp-postprocessing/SKILL.md",
+      "local_path": "preproduction/vendor/unity/skills/urp-postprocessing/SKILL.md",
+      "git_blob_sha": "7d35a4fe68b33341c33bbc9bf6f563f48ae63c60"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/urp-postprocessing/references/code-templates.md",
+      "local_path": "preproduction/vendor/unity/skills/urp-postprocessing/references/code-templates.md",
+      "git_blob_sha": "e6066d16fa21cb7df596f4834216d9c73c391496"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/urp-postprocessing/references/effect-reference.md",
+      "local_path": "preproduction/vendor/unity/skills/urp-postprocessing/references/effect-reference.md",
+      "git_blob_sha": "516c808b5f1eab0c49affecd99fe7f2e9a883f70"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/validate-urp-render-graph-renderer-feature/SECURITY.md",
+      "local_path": "preproduction/vendor/unity/skills/validate-urp-render-graph-renderer-feature/SECURITY.md",
+      "git_blob_sha": "48089ec8c8843891fdc1b7cd42f0bd1de5e2118a"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/validate-urp-render-graph-renderer-feature/SKILL.md",
+      "local_path": "preproduction/vendor/unity/skills/validate-urp-render-graph-renderer-feature/SKILL.md",
+      "git_blob_sha": "1413c3962754736eecdb927c314df1f376c278ff"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/validate-urp-render-graph-renderer-feature/references/api-reference.md",
+      "local_path": "preproduction/vendor/unity/skills/validate-urp-render-graph-renderer-feature/references/api-reference.md",
+      "git_blob_sha": "b4ca7b68d8b99e68254d771966d99becab3a995a"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "skills/validate-urp-render-graph-renderer-feature/references/pass-simplification.md",
+      "local_path": "preproduction/vendor/unity/skills/validate-urp-render-graph-renderer-feature/references/pass-simplification.md",
+      "git_blob_sha": "71e0a30466fa05d7bcdbe0b1f18414534431811e"
+    },
+    {
+      "repository": "Unity-Technologies/skills",
+      "commit": "8974588c0d76745c7eb9bee530b4053451bfc1aa",
+      "upstream_path": "LICENSE.md",
+      "local_path": "preproduction/vendor/unity/LICENSE.md",
+      "git_blob_sha": "869c724c8cab8764b548fd5bd8cb8ea1fc849100"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-animation/SKILL.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-animation/SKILL.md",
+      "git_blob_sha": "365adfb4690523661461f192b9f03f3724859bd2"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-animation/scripts/_bpyx.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-animation/scripts/_bpyx.py",
+      "git_blob_sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-animation/scripts/bake_action.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-animation/scripts/bake_action.py",
+      "git_blob_sha": "92e0c969e9dc4aaa937620734398cf410fb5fe89"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-animation/scripts/loop_check.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-animation/scripts/loop_check.py",
+      "git_blob_sha": "6f27641d597481af940cb51b37ea9ebe42fe9907"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-animation/scripts/retarget.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-animation/scripts/retarget.py",
+      "git_blob_sha": "a7199cbf19e07ea10645c85123bedc1312edfb70"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-asset-qa/SKILL.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-asset-qa/SKILL.md",
+      "git_blob_sha": "992ea8ed5b14a9de27841ee9f6bde5f890aafc15"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-asset-qa/scripts/_bpyx.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-asset-qa/scripts/_bpyx.py",
+      "git_blob_sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-asset-qa/scripts/qa_check.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-asset-qa/scripts/qa_check.py",
+      "git_blob_sha": "a4f94b4e8b96dfe3ecf820aa841bcde4dc788994"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-asset-qa/scripts/review_shots.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-asset-qa/scripts/review_shots.py",
+      "git_blob_sha": "c51a413062aa0bb7c7adc5675a3ea2021ed1c569"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-character-rigging/SKILL.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-character-rigging/SKILL.md",
+      "git_blob_sha": "a2cb56055fdd17af3b31bd9d64b3becddfe2e1cd"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-character-rigging/scripts/_bpyx.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-character-rigging/scripts/_bpyx.py",
+      "git_blob_sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-character-rigging/scripts/bind_mesh.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-character-rigging/scripts/bind_mesh.py",
+      "git_blob_sha": "938c515829a9759aee6f0945431d0407499b04d0"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-character-rigging/scripts/rig_check.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-character-rigging/scripts/rig_check.py",
+      "git_blob_sha": "cf1cd9fb9ec3b9da97685da1e9b7f73fb237934a"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-character-rigging/scripts/rigify_build.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-character-rigging/scripts/rigify_build.py",
+      "git_blob_sha": "c447509a3fc60148dbb7c1be9737bc4a3ed1cd24"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-character-rigging/scripts/stress_poses.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-character-rigging/scripts/stress_poses.py",
+      "git_blob_sha": "52b0785fb899c4f40680751f95e30037bebe466f"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-core/SKILL.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-core/SKILL.md",
+      "git_blob_sha": "2cc902160a756a32548d14b54aa7497a028a865c"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-core/references/api-changes-5x.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-core/references/api-changes-5x.md",
+      "git_blob_sha": "98c7b0022d0f2d762c1a201ac336862493a98869"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-core/references/bpy-patterns.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-core/references/bpy-patterns.md",
+      "git_blob_sha": "9d5489d7af74513297a419ec82b86c48267d48eb"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-core/scripts/_bpyx.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-core/scripts/_bpyx.py",
+      "git_blob_sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-core/scripts/env_report.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-core/scripts/env_report.py",
+      "git_blob_sha": "36a95d3b9083ed3458af0b67b95f1906764aa322"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-core/scripts/run_in_blender.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-core/scripts/run_in_blender.py",
+      "git_blob_sha": "6c4036ff1be01f009cd7eb062292baf09b0b0c09"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-export-pipelines/SKILL.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-export-pipelines/SKILL.md",
+      "git_blob_sha": "8a9b47821bc9ca6de7174aedfd6e6015a8f04ee2"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-export-pipelines/references/godot-web.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-export-pipelines/references/godot-web.md",
+      "git_blob_sha": "486acba051cd74877ab09d21c23b28105bec86f3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-export-pipelines/references/roblox.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-export-pipelines/references/roblox.md",
+      "git_blob_sha": "d07843ba03047e829d9345496c6407ebb920c8a0"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-export-pipelines/references/unity.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-export-pipelines/references/unity.md",
+      "git_blob_sha": "80b5a87f478042bc8032808b86d05a31d3746357"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-export-pipelines/references/unreal.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-export-pipelines/references/unreal.md",
+      "git_blob_sha": "02a19edaa21821c6b4e92b4408bdbab113da27b0"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-export-pipelines/scripts/_bpyx.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-export-pipelines/scripts/_bpyx.py",
+      "git_blob_sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-export-pipelines/scripts/export_asset.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-export-pipelines/scripts/export_asset.py",
+      "git_blob_sha": "f801808769ebc0fc986e6c26806f43b3037aa121"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-facial-shapekeys/SKILL.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-facial-shapekeys/SKILL.md",
+      "git_blob_sha": "7fcd943ef331e98ff81d20f8e282f70b03d5f118"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-facial-shapekeys/scripts/_bpyx.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-facial-shapekeys/scripts/_bpyx.py",
+      "git_blob_sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-facial-shapekeys/scripts/shapekeys.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-facial-shapekeys/scripts/shapekeys.py",
+      "git_blob_sha": "727f1c5e41d4dfe0f13f4343ab7c06da535146dc"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-game-optimization/SKILL.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-game-optimization/SKILL.md",
+      "git_blob_sha": "9197fe3d74bf9b02e04fe418796d1bd2e8bdfbbe"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-game-optimization/scripts/_bpyx.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-game-optimization/scripts/_bpyx.py",
+      "git_blob_sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-game-optimization/scripts/make_lods.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-game-optimization/scripts/make_lods.py",
+      "git_blob_sha": "24b9662ad2d6d4a3deaff7182f96ae4f58cd90c5"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-game-optimization/scripts/mesh_stats.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-game-optimization/scripts/mesh_stats.py",
+      "git_blob_sha": "d53b1730119a172e19b13974d8b54e8d6d19e7d4"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-pbr-materials/SKILL.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-pbr-materials/SKILL.md",
+      "git_blob_sha": "bf6672b927e80613024354e0217c1c264b1f05fa"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-pbr-materials/references/pbr-values.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-pbr-materials/references/pbr-values.md",
+      "git_blob_sha": "e2d750f4b099824590ed7b0c53c7ab315ac29f32"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-pbr-materials/scripts/_bpyx.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-pbr-materials/scripts/_bpyx.py",
+      "git_blob_sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-pbr-materials/scripts/build_pbr_material.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-pbr-materials/scripts/build_pbr_material.py",
+      "git_blob_sha": "e50284656bdb1a7dcddf45c2827dd5e2a3f3f7ea"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-retopology-uv/SKILL.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-retopology-uv/SKILL.md",
+      "git_blob_sha": "d442ed2fdcc147dfab6be955f0d2c8546ee071c0"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-retopology-uv/scripts/_bpyx.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-retopology-uv/scripts/_bpyx.py",
+      "git_blob_sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-retopology-uv/scripts/auto_retopo.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-retopology-uv/scripts/auto_retopo.py",
+      "git_blob_sha": "1e7e178f05f3199d9382fe8cebb0cd1c358a5be3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-retopology-uv/scripts/texel_density.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-retopology-uv/scripts/texel_density.py",
+      "git_blob_sha": "bf9056e104133b51d0294764d68611a8fe239d46"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-retopology-uv/scripts/uv_pack.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-retopology-uv/scripts/uv_pack.py",
+      "git_blob_sha": "5e65d82b904f3815e5bda7d20748e9aaa60e5823"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-scene-setup/SKILL.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-scene-setup/SKILL.md",
+      "git_blob_sha": "a07314eb804637ff009cd7d11efbfe8a64fd59be"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-scene-setup/scripts/_bpyx.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-scene-setup/scripts/_bpyx.py",
+      "git_blob_sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-scene-setup/scripts/scene_audit.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-scene-setup/scripts/scene_audit.py",
+      "git_blob_sha": "b4c3d9000fa0eb4ea2b24277c5dc4f8b56bbf6a5"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-sculpting/SKILL.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-sculpting/SKILL.md",
+      "git_blob_sha": "51b32d6f561f3c6590db8b45ee4f8d6c03ad8e4b"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-sculpting/references/forms-and-bake-sources.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-sculpting/references/forms-and-bake-sources.md",
+      "git_blob_sha": "f312855a259a2cf75d31974c9567238a9754a869"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-sculpting/scripts/_bpyx.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-sculpting/scripts/_bpyx.py",
+      "git_blob_sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-sculpting/scripts/sculpt_ops.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-sculpting/scripts/sculpt_ops.py",
+      "git_blob_sha": "0640d628f7ccd1f1497ab45e252013484c28767a"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-texture-baking/SKILL.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-texture-baking/SKILL.md",
+      "git_blob_sha": "e4060d86507a34f53116e9a71c29307374bdac5e"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-texture-baking/scripts/_bpyx.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-texture-baking/scripts/_bpyx.py",
+      "git_blob_sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-texture-baking/scripts/bake_maps.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-texture-baking/scripts/bake_maps.py",
+      "git_blob_sha": "b96d63d35c07eb979990c872ec0530819a4fa1b6"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-texturing/SKILL.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-texturing/SKILL.md",
+      "git_blob_sha": "5cbe1f350ae755e130e8c78537edb7a5631a2bd0"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-texturing/references/trims-tiling-painting.md",
+      "local_path": "preproduction/vendor/blender/skills/blender-texturing/references/trims-tiling-painting.md",
+      "git_blob_sha": "814cbf98e9c6d3482bc43be1583888ed954f4953"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-texturing/scripts/_bpyx.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-texturing/scripts/_bpyx.py",
+      "git_blob_sha": "201c7fc7ac3706e46f79ec69a0f41372882e92a3"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-texturing/scripts/decal.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-texturing/scripts/decal.py",
+      "git_blob_sha": "7dbe999e9a9e9e20d2dba995a7a8f4f149146cbf"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "skills/blender-texturing/scripts/smart_material.py",
+      "local_path": "preproduction/vendor/blender/skills/blender-texturing/scripts/smart_material.py",
+      "git_blob_sha": "e09da6bf35aa9691768981c479b9ddbec1096c9c"
+    },
+    {
+      "repository": "EL4CTEO/blender-skills",
+      "commit": "1a1cc6c49312f9f370aae86f52b7b907f29c94f6",
+      "upstream_path": "LICENSE",
+      "local_path": "preproduction/vendor/blender/LICENSE",
+      "git_blob_sha": "3f709c423026e30972b83813fc8a58a71495abf0"
+    }
+  ]
+}

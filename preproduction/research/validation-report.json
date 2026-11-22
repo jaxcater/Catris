@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-22",
+  "scope": "preparation files only; no engine/game/device execution",
+  "passed": false,
+  "checks": {
+    "maps": 5,
+    "asset_entries": 48,
+    "downloaded_materials_verified": 7,
+    "reference_frames": 72,
+    "pinned_vendor_blobs_verified": 110,
+    "custom_skills": 8,
+    "vendor_skills": 20,
+    "python_helpers_parsed_without_execution": 40,
+    "authored_markdown_documents": 23,
+    "local_document_links_checked": 125,
+    "checksummed_files": 237
+  },
+  "errors": [
+    "Broken link: preproduction\\VALIDATION.md -> research/validation-report.json"
+  ]
+}

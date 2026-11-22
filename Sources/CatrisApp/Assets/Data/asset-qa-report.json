@@ -1,0 +1,58 @@
+{
+  "generated_utc": "2026-11-22T10:49:20.8697328Z",
+  "elapsed_ms": 5932,
+  "cats": {
+    "nori": {
+      "vertices": 5426,
+      "triangles": 10848
+    },
+    "sumi": {
+      "vertices": 5302,
+      "triangles": 10600
+    },
+    "pudding": {
+      "vertices": 5174,
+      "triangles": 10344
+    },
+    "mochi": {
+      "vertices": 5372,
+      "triangles": 10740
+    },
+    "miso": {
+      "vertices": 2487,
+      "triangles": 4976
+    },
+    "yuzu": {
+      "vertices": 4070,
+      "triangles": 8136
+    },
+    "matcha": {
+      "vertices": 6104,
+      "triangles": 12204
+    },
+    "sesame": {
+      "vertices": 5490,
+      "triangles": 10976
+    },
+    "kinako": {
+      "vertices": 5354,
+      "triangles": 10708
+    },
+    "azuki": {
+      "vertices": 5242,
+      "triangles": 10484
+    },
+    "taro": {
+      "vertices": 5144,
+      "triangles": 10288
+    },
+    "banhmi": {
+      "vertices": 5722,
+      "triangles": 11440
+    }
+  },
+  "anchor_count": 12,
+  "cmesh_files": 27,
+  "texture_files": 32,
+  "audio_files": 19
+}

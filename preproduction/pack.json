@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "project": "Catris",
+  "mode": "PREPARATION_ONLY",
+  "recorded_on": "2026-11-22",
+  "repository": "https://github.com/jaxcater/Catris.git",
+  "repository_inspected_commit": "d69e399a9d8830f7a21d54b9dc5c3d9346039ddf",
+  "remote_snapshot": "README-only",
+  "engine_proposal": "Unity 6.3 LTS / URP",
+  "exact_editor_patch": null,
+  "toolchain_status": "not-provisioned",
+  "platform": "iOS",
+  "orientation": "portrait",
+  "max_maps": 5,
+  "maps": [
+    {
+      "id": "M01",
+      "name": "Góc Nắng",
+      "reference_relation": "video-inspired",
+      "boards_proposed": 12
+    },
+    {
+      "id": "M02",
+      "name": "Dưới Tán Sồi",
+      "reference_relation": "proposed-extension",
+      "boards_proposed": 12
+    },
+    {
+      "id": "M03",
+      "name": "Hiên Nhà Kính",
+      "reference_relation": "proposed-extension",
+      "boards_proposed": 12
+    },
+    {
+      "id": "M04",
+      "name": "Ô Cửa Ngày Mưa",
+      "reference_relation": "proposed-extension",
+      "boards_proposed": 12
+    },
+    {
+      "id": "M05",
+      "name": "Gác Mái Trăng",
+      "reference_relation": "proposed-extension",
+      "boards_proposed": 12
+    }
+  ],
+  "game_implementation_started": false,
+  "github_mutations": false,
+  "ipa_built": false,
+  "custom_skills": 8,
+  "vendor_skills": 20,
+  "vendor_default_route": 19,
+  "vendor_quarantined": [
+    "create-ui"
+  ],
+  "reference_frames": 72,
+  "downloaded_material_files": 7,
+  "unproduced_critical_assets": [
+    "five authored cat meshes/rigs",
+    "final map assets and material family",
+    "Catris animation clips",
+    "music, ambience, cat and foley recordings"
+  ],
+  "checks": "research/validation-report.json"
+}

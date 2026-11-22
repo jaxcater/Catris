@@ -1,0 +1,1312 @@
+{
+  "schema_version": 1,
+  "project": "Catris",
+  "phase": "preproduction",
+  "recorded_on": "2026-11-22",
+  "budget_purchases_authorized": false,
+  "asset_status_meanings": {
+    "planned": "Brief exists, production file does not yet exist",
+    "source-identified": "Source and terms identified, not downloaded/imported",
+    "downloaded-source": "Raw material downloaded and integrity checked; no runtime approval"
+  },
+  "assets": [
+    {
+      "id": "RAW-WOOD",
+      "name": "Wood Floor",
+      "kind": "source-material",
+      "maps": [
+        "M01",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "downloaded-source",
+      "source": {
+        "kind": "Poly Haven",
+        "url": "https://polyhaven.com/a/wood_floor",
+        "license": "CC0-1.0",
+        "license_url": "https://polyhaven.com/license"
+      },
+      "local_directory": "preproduction/assets/source-materials/wood_floor",
+      "download_record": "preproduction/assets/downloaded-materials.json",
+      "notes": "Use as source; stylize grain/contrast and repack roughness for URP.",
+      "technical_checks_passed": false,
+      "integrity_checked": true,
+      "runtime_approved": false
+    },
+    {
+      "id": "RAW-FABRIC",
+      "name": "Fabric Pattern 07",
+      "kind": "source-material",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "downloaded-source",
+      "source": {
+        "kind": "Poly Haven",
+        "url": "https://polyhaven.com/a/fabric_pattern_07",
+        "license": "CC0-1.0",
+        "license_url": "https://polyhaven.com/license"
+      },
+      "local_directory": "preproduction/assets/source-materials/fabric_pattern_07",
+      "download_record": "preproduction/assets/downloaded-materials.json",
+      "notes": "Use restrained weave, repaint own rug pattern; test moire.",
+      "technical_checks_passed": false,
+      "integrity_checked": true,
+      "runtime_approved": false
+    },
+    {
+      "id": "RAW-SKY",
+      "name": "Autumn Field Pure Sky",
+      "kind": "source-material",
+      "maps": [
+        "M02",
+        "M03"
+      ],
+      "priority": "P0",
+      "status": "downloaded-source",
+      "source": {
+        "kind": "Poly Haven",
+        "url": "https://polyhaven.com/a/autumn_field_puresky",
+        "license": "CC0-1.0",
+        "license_url": "https://polyhaven.com/license"
+      },
+      "local_directory": "preproduction/assets/source-materials/autumn_field_puresky",
+      "download_record": "preproduction/assets/downloaded-materials.json",
+      "notes": "Lighting source for look development; bake/probe, not a photo backdrop.",
+      "technical_checks_passed": false,
+      "integrity_checked": true,
+      "runtime_approved": false
+    },
+    {
+      "id": "CAT-01",
+      "name": "Nori",
+      "kind": "rigged-cat",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "Nori.blend",
+        "Nori.fbx",
+        "BaseColor/Normal/material masks",
+        "rig-and-clips.json",
+        "asset-qa-report.json"
+      ],
+      "notes": "Organic continuous sculpt; Generic rig; 0.25 m cell; see asset briefs and budgets.",
+      "technical_checks_passed": false,
+      "runtime_approved": false,
+      "footprint": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "allowed_rotations_degrees": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "mirror_allowed": false,
+      "cell_size_m": 0.25
+    },
+    {
+      "id": "CAT-02",
+      "name": "Sumi",
+      "kind": "rigged-cat",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "Sumi.blend",
+        "Sumi.fbx",
+        "BaseColor/Normal/material masks",
+        "rig-and-clips.json",
+        "asset-qa-report.json"
+      ],
+      "notes": "Organic continuous sculpt; Generic rig; 0.25 m cell; see asset briefs and budgets.",
+      "technical_checks_passed": false,
+      "runtime_approved": false,
+      "footprint": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "allowed_rotations_degrees": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "mirror_allowed": false,
+      "cell_size_m": 0.25
+    },
+    {
+      "id": "CAT-03",
+      "name": "Pudding",
+      "kind": "rigged-cat",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "Pudding.blend",
+        "Pudding.fbx",
+        "BaseColor/Normal/material masks",
+        "rig-and-clips.json",
+        "asset-qa-report.json"
+      ],
+      "notes": "Organic continuous sculpt; Generic rig; 0.25 m cell; see asset briefs and budgets.",
+      "technical_checks_passed": false,
+      "runtime_approved": false,
+      "footprint": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "allowed_rotations_degrees": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "mirror_allowed": false,
+      "cell_size_m": 0.25
+    },
+    {
+      "id": "CAT-04",
+      "name": "Mochi",
+      "kind": "rigged-cat",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "Mochi.blend",
+        "Mochi.fbx",
+        "BaseColor/Normal/material masks",
+        "rig-and-clips.json",
+        "asset-qa-report.json"
+      ],
+      "notes": "Organic continuous sculpt; Generic rig; 0.25 m cell; see asset briefs and budgets.",
+      "technical_checks_passed": false,
+      "runtime_approved": false,
+      "footprint": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "allowed_rotations_degrees": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "mirror_allowed": false,
+      "cell_size_m": 0.25
+    },
+    {
+      "id": "CAT-05",
+      "name": "Miso",
+      "kind": "rigged-cat",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "Miso.blend",
+        "Miso.fbx",
+        "BaseColor/Normal/material masks",
+        "rig-and-clips.json",
+        "asset-qa-report.json"
+      ],
+      "notes": "Organic continuous sculpt; Generic rig; 0.25 m cell; see asset briefs and budgets.",
+      "technical_checks_passed": false,
+      "runtime_approved": false,
+      "footprint": [
+        [
+          0,
+          0
+        ]
+      ],
+      "allowed_rotations_degrees": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "mirror_allowed": false,
+      "cell_size_m": 0.25
+    },
+    {
+      "id": "ANIM-CATS",
+      "name": "Bộ clip/secondary motion cho năm mèo",
+      "kind": "animation-family",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "idle, blink, gaze, ear, tail, pickup, drag, rotate, valid-drop, invalid-return, pet, purr, solve",
+        "clip-manifest.json"
+      ],
+      "notes": "Authored clips plus bounded procedural motion; timings in presentation design.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "ENV-M01",
+      "name": "Góc Nắng — floor/rug/environment kit",
+      "kind": "environment-kit",
+      "maps": [
+        "M01"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "M01.blend",
+        "M01-meshes.fbx",
+        "M01-texture-family"
+      ],
+      "notes": "Map-specific composition; scene implementation occurs later.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "ENV-M02",
+      "name": "Dưới Tán Sồi — floor/rug/environment kit",
+      "kind": "environment-kit",
+      "maps": [
+        "M02"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "M02.blend",
+        "M02-meshes.fbx",
+        "M02-texture-family"
+      ],
+      "notes": "Map-specific composition; scene implementation occurs later.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "ENV-M03",
+      "name": "Hiên Nhà Kính — floor/rug/environment kit",
+      "kind": "environment-kit",
+      "maps": [
+        "M03"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "M03.blend",
+        "M03-meshes.fbx",
+        "M03-texture-family"
+      ],
+      "notes": "Map-specific composition; scene implementation occurs later.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "ENV-M04",
+      "name": "Ô Cửa Ngày Mưa — floor/rug/environment kit",
+      "kind": "environment-kit",
+      "maps": [
+        "M04"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "M04.blend",
+        "M04-meshes.fbx",
+        "M04-texture-family"
+      ],
+      "notes": "Map-specific composition; scene implementation occurs later.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "ENV-M05",
+      "name": "Gác Mái Trăng — floor/rug/environment kit",
+      "kind": "environment-kit",
+      "maps": [
+        "M05"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "M05.blend",
+        "M05-meshes.fbx",
+        "M05-texture-family"
+      ],
+      "notes": "Map-specific composition; scene implementation occurs later.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-CURTAIN",
+      "name": "Rèm linen có nếp",
+      "kind": "prop-family",
+      "maps": [
+        "M01",
+        "M03",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "curtain.blend",
+        "curtain.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Fixed top anchor and wind weights.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-PLANT",
+      "name": "Cây lá lớn",
+      "kind": "prop-family",
+      "maps": [
+        "M01",
+        "M03"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "plant.blend",
+        "plant.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Authored stems/leaves; anchored wind mask.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-POTS",
+      "name": "Bộ chậu men",
+      "kind": "prop-family",
+      "maps": [
+        "M01",
+        "M03",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "pots.blend",
+        "pots.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Shared ceramic family with restrained highlights.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-GUITAR",
+      "name": "Góc đàn guitar",
+      "kind": "prop-family",
+      "maps": [
+        "M01"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "guitar.blend",
+        "guitar.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Recognizable edge silhouette; baked fine strings/detail.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-CUSHION",
+      "name": "Gối và vải gấp",
+      "kind": "prop-family",
+      "maps": [
+        "M01",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "cushion.blend",
+        "cushion.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Soft seams and broad cloth folds.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-BOOKS",
+      "name": "Bộ sách",
+      "kind": "prop-family",
+      "maps": [
+        "M01",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "books.blend",
+        "books.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "No copied readable cover art; common atlas.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-CUP",
+      "name": "Cốc và lót cốc",
+      "kind": "prop-family",
+      "maps": [
+        "M01",
+        "M04"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "cup.blend",
+        "cup.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Subtle steam only outside interaction region.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-OAK",
+      "name": "Thân/rễ sồi",
+      "kind": "prop-family",
+      "maps": [
+        "M02"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "oak.blend",
+        "oak.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Sculpted organic silhouette, simplified bark.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-MEADOW",
+      "name": "Cỏ/hoa/acorn",
+      "kind": "prop-family",
+      "maps": [
+        "M02"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "meadow.blend",
+        "meadow.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Sparse variation; keep board clear.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-PICNIC",
+      "name": "Giỏ và bình picnic",
+      "kind": "prop-family",
+      "maps": [
+        "M02"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "picnic.blend",
+        "picnic.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Consistent material density; no dense woven geometry.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-GREENHOUSE",
+      "name": "Khung hiên/nhà kính",
+      "kind": "prop-family",
+      "maps": [
+        "M03"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "greenhouse.blend",
+        "greenhouse.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Limited transparent surfaces and shadow complexity.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-VINES",
+      "name": "Dây leo và hoa",
+      "kind": "prop-family",
+      "maps": [
+        "M03"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "vines.blend",
+        "vines.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Independent anchor and stiffness.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-CHIME",
+      "name": "Chuông gió",
+      "kind": "prop-family",
+      "maps": [
+        "M03"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "chime.blend",
+        "chime.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Anchored rig and sparse event timing.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-RAIN-WINDOW",
+      "name": "Khung kính mưa",
+      "kind": "prop-family",
+      "maps": [
+        "M04"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "rain-window.blend",
+        "rain-window.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Rain outside; layered droplets within mobile budget.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-LAMP",
+      "name": "Đèn bàn amber",
+      "kind": "prop-family",
+      "maps": [
+        "M04",
+        "M05"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "lamp.blend",
+        "lamp.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Bake fill where possible; no expensive point shadow by default.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "PROP-ATTIC",
+      "name": "Khung cửa mái và mái gác",
+      "kind": "prop-family",
+      "maps": [
+        "M05"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "attic.blend",
+        "attic.fbx",
+        "texture family / LOD / optional wind mask"
+      ],
+      "notes": "Own night silhouette; board stays bright.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "LIGHT-M01",
+      "name": "Light rig Góc Nắng",
+      "kind": "lighting-profile",
+      "maps": [
+        "M01"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "light-rig specification",
+        "bake/probe inputs",
+        "portrait runtime captures"
+      ],
+      "notes": "Implementation and bake later; retain readable black/white cats.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "LIGHT-M02",
+      "name": "Light rig Dưới Tán Sồi",
+      "kind": "lighting-profile",
+      "maps": [
+        "M02"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "light-rig specification",
+        "bake/probe inputs",
+        "portrait runtime captures"
+      ],
+      "notes": "Implementation and bake later; retain readable black/white cats.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "LIGHT-M03",
+      "name": "Light rig Hiên Nhà Kính",
+      "kind": "lighting-profile",
+      "maps": [
+        "M03"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "light-rig specification",
+        "bake/probe inputs",
+        "portrait runtime captures"
+      ],
+      "notes": "Implementation and bake later; retain readable black/white cats.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "LIGHT-M04",
+      "name": "Light rig Ô Cửa Ngày Mưa",
+      "kind": "lighting-profile",
+      "maps": [
+        "M04"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "light-rig specification",
+        "bake/probe inputs",
+        "portrait runtime captures"
+      ],
+      "notes": "Implementation and bake later; retain readable black/white cats.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "LIGHT-M05",
+      "name": "Light rig Gác Mái Trăng",
+      "kind": "lighting-profile",
+      "maps": [
+        "M05"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "light-rig specification",
+        "bake/probe inputs",
+        "portrait runtime captures"
+      ],
+      "notes": "Implementation and bake later; retain readable black/white cats.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "VFX-SHARED",
+      "name": "Bụi/hơi/lá và material mask",
+      "kind": "vfx-texture-family",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "soft particle textures",
+        "wind anchor masks",
+        "map effect presets"
+      ],
+      "notes": "Low overdraw; not full-screen atmosphere overlay.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "AUDIO-M01",
+      "name": "Ambience Góc Nắng",
+      "kind": "audio-loop",
+      "maps": [
+        "M01"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "M01-ambience.wav",
+        "loop markers",
+        "source license"
+      ],
+      "notes": "45–90 s proposed; not yet sourced or listened to.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "AUDIO-M02",
+      "name": "Ambience Dưới Tán Sồi",
+      "kind": "audio-loop",
+      "maps": [
+        "M02"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "M02-ambience.wav",
+        "loop markers",
+        "source license"
+      ],
+      "notes": "45–90 s proposed; not yet sourced or listened to.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "AUDIO-M03",
+      "name": "Ambience Hiên Nhà Kính",
+      "kind": "audio-loop",
+      "maps": [
+        "M03"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "M03-ambience.wav",
+        "loop markers",
+        "source license"
+      ],
+      "notes": "45–90 s proposed; not yet sourced or listened to.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "AUDIO-M04",
+      "name": "Ambience Ô Cửa Ngày Mưa",
+      "kind": "audio-loop",
+      "maps": [
+        "M04"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "M04-ambience.wav",
+        "loop markers",
+        "source license"
+      ],
+      "notes": "45–90 s proposed; not yet sourced or listened to.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "AUDIO-M05",
+      "name": "Ambience Gác Mái Trăng",
+      "kind": "audio-loop",
+      "maps": [
+        "M05"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "M05-ambience.wav",
+        "loop markers",
+        "source license"
+      ],
+      "notes": "45–90 s proposed; not yet sourced or listened to.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "AUDIO-MUSIC-DAY",
+      "name": "Nhạc ngày acoustic/ambient",
+      "kind": "music-loop",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "audio-music-day.wav",
+        "optional stems",
+        "license and loop markers"
+      ],
+      "notes": "90–150 s proposed; original composition or licensed source.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "AUDIO-MUSIC-NIGHT",
+      "name": "Nhạc đêm ambient",
+      "kind": "music-loop",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P1",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "audio-music-night.wav",
+        "optional stems",
+        "license and loop markers"
+      ],
+      "notes": "90–150 s proposed; original composition or licensed source.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "AUDIO-FOLEY",
+      "name": "Cloth/wood/lift/drop/rotate variations",
+      "kind": "foley-family",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "WAV masters 48 kHz / 24-bit",
+        "event-to-file table",
+        "source license"
+      ],
+      "notes": "3–5 variants/event, no preview-frame triggers.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "AUDIO-CATS",
+      "name": "Meow/chirp/purr family",
+      "kind": "cat-audio-family",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "three vocal families with variations",
+        "WAV masters",
+        "author/license"
+      ],
+      "notes": "Natural gentle recordings, cooldown/voice limits; no final synth fallback.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "AUDIO-UI",
+      "name": "UI/hint/undo/solve",
+      "kind": "ui-audio-family",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "WAV masters",
+        "event table",
+        "license"
+      ],
+      "notes": "Soft, low fatigue; avoid alarm-like invalid audio.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "UI-ICONS",
+      "name": "Icon controls Catris",
+      "kind": "ui-assets",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "planned",
+      "source": {
+        "kind": "original-authoring-planned",
+        "author": null,
+        "license": "to-be-recorded-at-production"
+      },
+      "production_outputs": [
+        "original icon source",
+        "runtime atlas"
+      ],
+      "notes": "Simple functional symbols may be vector; world/cats remain real 3D.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    },
+    {
+      "id": "UI-FONT",
+      "name": "Noto Sans candidate",
+      "kind": "font",
+      "maps": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "priority": "P0",
+      "status": "source-identified",
+      "source": {
+        "kind": "Google Fonts / Noto Project",
+        "url": "https://github.com/google/fonts/tree/main/ofl/notosans",
+        "license": "OFL-1.1",
+        "license_url": "https://github.com/google/fonts/blob/main/ofl/notosans/OFL.txt"
+      },
+      "production_outputs": [
+        "approved font source",
+        "OFL notice",
+        "TMP atlas with Vietnamese glyph coverage"
+      ],
+      "notes": "Not downloaded/imported. Confirm static/variable font import support before selecting runtime instances.",
+      "technical_checks_passed": false,
+      "runtime_approved": false
+    }
+  ]
+}

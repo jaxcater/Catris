@@ -1,0 +1,72 @@
+name: Build Catris iOS Unsigned IPA
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ios-ipa-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-unsigned-ipa:
+    name: Test Core & Build Catris-unsigned.ipa (ARM64 iPhoneOS)
+    runs-on: macos-15
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Inspect macOS & Xcode toolchain
+        run: |
+          uname -a
+          xcodebuild -version
+          xcodebuild -showsdks
+          swift --version
+
+      - name: Run CatrisCore unit tests (60 levels, solver, rotations, undo, hints, save recovery)
+        run: swift test --verbose
+
+      - name: Install XcodeGen & generate Catris.xcodeproj
+        run: |
+          brew install xcodegen
+          xcodegen generate --spec project.yml
+          xcodebuild -list -project Catris.xcodeproj
+
+      - name: Build unsigned Release iPhoneOS ARM64 archive
+        run: |
+          xcodebuild \
+            -project Catris.xcodeproj \
+            -scheme Catris \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -archivePath build/Catris.xcarchive \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            AD_HOC_CODE_SIGNING_ALLOWED=NO \
+            archive
+
+      - name: Package & verify Catris-unsigned.ipa
+        run: |
+          chmod +x scripts/package-unsigned-ipa.sh
+          ./scripts/package-unsigned-ipa.sh build/Catris.xcarchive build/dist
+
+      - name: Upload Catris-unsigned.ipa artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Catris-unsigned-ipa
+          path: |
+            build/dist/Catris-unsigned.ipa
+            build/dist/Catris-unsigned.ipa.sha256
+            build/dist/build-report.json
+          retention-days: 30
+          if-no-files-found: error
