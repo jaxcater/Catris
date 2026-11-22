@@ -246,6 +246,13 @@ public struct LevelBundlePayload: Codable, Sendable {
     public let cats: [CatDefinition]
     public let levels: [BoardDefinition]
 
+    public init(schemaVersion: Int, maps: [MapTheme], cats: [CatDefinition], levels: [BoardDefinition]) {
+        self.schemaVersion = schemaVersion
+        self.maps = maps
+        self.cats = cats
+        self.levels = levels
+    }
+
     enum CodingKeys: String, CodingKey {
         case schemaVersion = "schema_version"
         case maps, cats, levels

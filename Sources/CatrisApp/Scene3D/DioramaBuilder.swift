@@ -151,7 +151,8 @@ final class DioramaBuilder {
         addPottedPlant(root: root, at: SCNVector3(0.75, 0, -0.80), potHex: "#7A5B42", scale: 1.15, windStrength: 0.032, reduceMotion: reduceMotion)
         addPottedPlant(root: root, at: SCNVector3(-0.75, 0, 0.78), potHex: "#8B694D", scale: 0.92, windStrength: 0.028, reduceMotion: reduceMotion)
 
-        for (x, z, r) in [(Float(0.60), Float(0.78), Float(0.4)), (-0.54, -0.64, 1.1), (0.64, -0.42, 2.2)] {
+        let acornCoords: [(Float, Float, Float)] = [(0.60, 0.78, 0.4), (-0.54, -0.64, 1.1), (0.64, -0.42, 2.2)]
+        for (x, z, r) in acornCoords {
             if let acorn = makeProp("prop_acorn", hex: "#8F5A36", roughness: 0.58) {
                 acorn.position = SCNVector3(x, 0, z); acorn.eulerAngles = SCNVector3(0.6, r, 0.3)
                 acorn.scale = SCNVector3(0.75, 0.75, 0.75); root.addChildNode(acorn)
