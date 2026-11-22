@@ -95,7 +95,7 @@ final class HapticManager {
         do {
             try engine.start()
             let pattern = try CHHapticPattern(events: [rumble], parameterCurves: [curve])
-            let player = try engine.makePlayer(withPattern: pattern)
+            let player = try engine.makePlayer(with: pattern)
             try player.start(atTime: CHHapticTimeImmediate)
         } catch {}
     }
@@ -120,7 +120,7 @@ final class HapticManager {
         do {
             try engine.start()
             let pattern = try CHHapticPattern(events: events, parameters: [])
-            let player = try engine.makePlayer(withPattern: pattern)
+            let player = try engine.makePlayer(with: pattern)
             try player.start(atTime: CHHapticTimeImmediate)
         } catch {}
     }
